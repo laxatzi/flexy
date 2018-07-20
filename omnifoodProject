@@ -1,3 +1,4 @@
+/* Base */
 * {
    margin: 0;
    padding: 0;
@@ -28,22 +29,20 @@
 	     margin: 0;
 	     padding: 0;
 	    }
+/* GRID */
          .row {
 	       max-width: 1100px; 
 	       margin: 0 auto;
 		        }
-		   
-		   header {
-		           background-color: goldenrod	;
-				   background-image: url("img/hero.jpg");
-				   background-repeat: no-repeat;
-				   background-size: cover;
-				   height: 100vh;
-				   background-position: center;
-				   display: flex;
-		          }
+/* HEADER */		   
+	  header {
+		  background-color: goldenrod	;
+	          background-image: url("img/hero.jpg");
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  height: 100vh;
+		  background-position: center;
+		  display: flex;
+		 }
 				  
-				.hero-text {
-				    
-					margin: auto;
-				} 
+	  .hero-text { margin: auto; } 

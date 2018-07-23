@@ -67,13 +67,14 @@
 				 }
 /* HEADER */		   
 	  header {
-		  background-color: goldenrod	;
+		  background-color: goldenrod;
 	          background-image:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)) url("img/hero.jpg");
 		  background-repeat: no-repeat;
 		  background-size: cover;
 		  height: 100vh;
 		  background-position: center;
 		  display: flex;
+		  flex-direction: column;
 		 }
 				  
 	  .hero-text { margin: auto; } 
@@ -96,23 +97,25 @@
 	     flex-direction: row; 
 	     border: 1px solid red;	 
 	     padding: .5rem;
+	     justify-content: center;
 	    } 
 			   
-	.logo { flex: 1; }
+	.logo { 
+	      flex: 1;
+	      display: flex;
+	      justify-content: center;
+	      }
 			  
 	.logo-image {
 		     height: 5rem;
 		     width: auto;
-		     border: 1px solid white;	
-	             }
+		    }
 					 
 	.main-navigation {
-			  border: 1px solid yellow;
 			  list-style: none;
 			  display: flex;
 			  align-items: center;
 			  justify-content: flex-end;
-			  background-color: crimson;
 			  flex:4; 
 			  display: flex;
 			 } 

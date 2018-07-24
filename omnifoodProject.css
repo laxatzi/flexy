@@ -143,3 +143,9 @@
 				     transition: border-bottom .2s, color .2s; 
 			            }
 
+ /* FEATURES */
+	         
+	 .feature-items {
+			  display: flex;
+			  align-items: stretch;
+			}

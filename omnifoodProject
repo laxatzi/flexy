@@ -40,6 +40,10 @@
        </div>
     </header>
 <!-- FEATURES -->
+    <div class="row feature-greetings">
+        <h2>Get food fast &dash; No fast food</h2>
+	<p>Hello, we are Omnifood, your new premium food delivery service. We know you are always busy. No time for cooking. So let us take care of that. We are really good at it, we promise!</p>
+    </div>
     <div class="row feature-items">
          <div class="col span-1-of-4 feature-item">
 	    <i class="fas fa-infinity"></i>

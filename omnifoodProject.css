@@ -91,6 +91,11 @@
 			          background-color:  #772929;
 				  color: #fff;
 				 }
+		.long-copy { 
+		            width: 70%;
+			    margin-left: 15%;
+			    text-align: center;
+			   }
 /* HEADER */		   
 	  header {
 	          height: 100vh;

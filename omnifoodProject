@@ -40,31 +40,66 @@
        </div>
     </header>
 <!-- FEATURES -->
+<section class="features section">
+	     <!-- Features section heading -->
     <div class="row feature-greetings">
         <h2>Get food fast &dash; No fast food</h2>
 	<p>Hello, we are Omnifood, your new premium food delivery service. We know you are always busy. No time for cooking. So let us take care of that. We are really good at it, we promise!</p>
     </div>
+    		  <!-- feature items -->
+
     <div class="row feature-items">
-         <div class="col span-1-of-4 feature-item">
+         <div class="col span-1-of-4 box">
 	    <i class="fas fa-infinity icon"></i>
 	    <h3>Up to 365 days a year</h3>
 	    <p>Never cook again! We really mean that. Our subscription plans include up to 365-days a year coverage. You can also choose to order more flexible if that's your style.</p>
 	</div>
-	<div class="col span-1-of-4 feature-item">
+	<div class="col span-1-of-4 box">
 	   <i class="far fa-clock icon"></i>
 	   <h3>Ready in 20 minutes</h3>
 	   <p>You are only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that your are 100% happy.</p>
 	</div>
-	<div class="col span-1-of-4 feature-item">
+	<div class="col span-1-of-4 box">
 	   <i class="far fa-lemon icon"></i>
 	   <h3>100% organic</h3>
 	   <p>All our vegetables are fresh, organic and local. Animals are raised without added hormones and antibiotics. Good for your health, the environment, and it also tastes better!.</p>
 	</div>
-	<div class="col span-1-of-4 feature-item">
+	<div class="col span-1-of-4 box">
 	   <i class="fas fa-cart-plus icon"></i>
 	   <h3>Order anything</h3>
 	   <p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
 	</div>
    </div>
+   </section>
+   <section class="section row ">
+	  <div class="gallery span-3-of-4">
+	  	 <h2>Have a look at our meals!</h2>
+
+	    <div class="thumbnail">
+	
+		 <a href="#">
+		    <img src="RsourcesNew/img/asparagusAndSteak.jpg" alt="" >
+		 </a>
+		 <a href="#" >
+		    <img src="RsourcesNew/img/asparagusAndMeat.jpg" alt="" >
+		 </a>
+		 <a href="#" >
+		    <img src="RsourcesNew/img/cheeseCake.jpg" alt="" >
+		 </a>
+		<a href="#" >
+		    <img src="RsourcesNew/img/panini.jpg" alt="" >
+		 </a>
+		 <a href="#" >
+		    <img src="RsourcesNew/img/pizza.jpg" alt="" >
+		 </a>
+		 <a href="#" >
+		    <img src="RsourcesNew/img/sandwitch.jpg" alt="" >
+		 </a>
+		 
+		 </div>
+		 </div>
+		 
+		 <!-- HOW IT WORKS -->
+	  </section>
  </body>
 </html>

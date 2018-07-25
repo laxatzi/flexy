@@ -40,14 +40,13 @@
        </div>
     </header>
 <!-- FEATURES -->
-<section class="features section">
-	     <!-- Features section heading -->
+    <section class="features section">
+<!-- Features section heading -->
     <div class="row feature-greetings">
         <h2>Get food fast &dash; No fast food</h2>
 	<p>Hello, we are Omnifood, your new premium food delivery service. We know you are always busy. No time for cooking. So let us take care of that. We are really good at it, we promise!</p>
     </div>
-    		  <!-- feature items -->
-
+ <!-- feature items -->
     <div class="row feature-items">
          <div class="col span-1-of-4 box">
 	    <i class="fas fa-infinity icon"></i>
@@ -72,34 +71,31 @@
    </div>
    </section>
    <section class="section row ">
-	  <div class="gallery span-3-of-4">
-	  	 <h2>Have a look at our meals!</h2>
-
-	    <div class="thumbnail">
-	
-		 <a href="#">
-		    <img src="RsourcesNew/img/asparagusAndSteak.jpg" alt="" >
-		 </a>
-		 <a href="#" >
-		    <img src="RsourcesNew/img/asparagusAndMeat.jpg" alt="" >
-		 </a>
-		 <a href="#" >
-		    <img src="RsourcesNew/img/cheeseCake.jpg" alt="" >
-		 </a>
-		<a href="#" >
-		    <img src="RsourcesNew/img/panini.jpg" alt="" >
-		 </a>
-		 <a href="#" >
-		    <img src="RsourcesNew/img/pizza.jpg" alt="" >
-		 </a>
-		 <a href="#" >
-		    <img src="RsourcesNew/img/sandwitch.jpg" alt="" >
-		 </a>
-		 
-		 </div>
-		 </div>
-		 
+      <div class="gallery span-3-of-4">
+         <h2>Have a look at our meals!</h2>
+	 <div class="thumbnail">
+	   <a href="#">
+	      <img src="RsourcesNew/img/asparagusAndSteak.jpg" alt="" >
+	   </a>
+	   <a href="#" >
+	      <img src="RsourcesNew/img/asparagusAndMeat.jpg" alt="" >
+	   </a>
+	   <a href="#" >
+	      <img src="RsourcesNew/img/cheeseCake.jpg" alt="" >
+	   </a>
+	   <a href="#" >
+	      <img src="RsourcesNew/img/panini.jpg" alt="" >
+	   </a>
+	   <a href="#" >
+	      <img src="RsourcesNew/img/pizza.jpg" alt="" >
+	   </a>
+	   <a href="#" >
+	      <img src="RsourcesNew/img/sandwitch.jpg" alt="" >
+	   </a>
+	</div>
+     </div>
+ </section>	 
 		 <!-- HOW IT WORKS -->
-	  </section>
+	 
  </body>
 </html>

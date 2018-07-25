@@ -1,4 +1,6 @@
-/* Base */
+/*------------------------------------------------------------------
+    BASIC
+-------------------------------------------------------------------*/
 * {
    margin: 0;
    padding: 0;
@@ -21,7 +23,9 @@
 	    }
 		   
 	 
-/* GRID */
+/*------------------------------------------------------------------
+    GRID
+-------------------------------------------------------------------*/
          .row {
 	       max-width: 1100px; 
 	       margin: 0 auto;
@@ -29,7 +33,21 @@
          .section {
 		   padding: 4rem 0;
                   }
-/* REUSABLE COMPONENTS			 */	
+
+         section:after {
+			display: block;
+			height: 2px;
+			width: 5em;
+			background-color: #ee5253;
+			margin: 15px auto;
+			content: "";
+			}
+	  .box { padding: 1% .5%; }
+
+/*------------------------------------------------------------------
+     REUSABLE COMPONENTS
+-------------------------------------------------------------------*/	
+ /*   HEADINGS     */
           h1,
 	  h2,
 	  h3 {
@@ -59,7 +77,7 @@
 		     margin: 15px auto;
 		     content: "";
 		    }
-
+     /* BUTTONS */
 
 		.btn:link,
                 .btn:visited {
@@ -91,12 +109,24 @@
 			          background-color:  #772929;
 				  color: #fff;
 				 }
+	/* PARAGRAPH */
 		.long-copy { 
 		            width: 70%;
 			    margin-left: 15%;
 			    text-align: center;
 			   }
-/* HEADER */		   
+      /* ICONS */
+                /* icons				    */
+	    
+		.icon {
+		       display: block;
+		       color: #ee5253;
+		       font-size: 250%;
+		       margin-bottom: 10px;
+		       }
+/*------------------------------------------------------------------
+    HEADER
+-------------------------------------------------------------------*/		   
 	  header {
 	          height: 100vh;
 		  display: flex;
@@ -110,15 +140,7 @@
 				  
 	  .hero-text { margin: auto; } 
 	  
-	  .hero-text h1 {
-			 margin: 0;
-			 margin-bottom: 1rem;
-			 color: #fff;
-			 font-size: 240%;
-			 line-height: 150%;
-			 font-weight: 300;
-			 }
-		
+	 
 /*------------------------------------------------------------------
 			NAV
 -------------------------------------------------------------------*/		
@@ -171,7 +193,9 @@
 				     transition: border-bottom .2s, color .2s; 
 			            }
 
- /* FEATURES */
+/*------------------------------------------------------------------
+    FEATURES
+-------------------------------------------------------------------*/
 	         
 	 .feature-items {
 			  display: flex;

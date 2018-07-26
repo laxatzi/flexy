@@ -286,7 +286,35 @@
     MAX 585px
 -------------------------------------------------------------------*/
 @media screen and (max-width: 585px) {
+    /* Basic */
+          h1,
+	  h2,
+	  h3 { margin: 15px 0; }
+					
+	  h1 {
+	      color: #fff;
+	      font-size: 200%;
+	     }
 
+	   h2 {
+	       font-size: 150%;
+	     
+	      }
+				 
+	   h2:after {
+		     display: block;
+		     height: 2px;
+		     width: 5em;
+		     background-color: #ee5253;
+		     margin: 15px auto;
+		     content: "";
+		    }
+
+            h3 {
+	        font-size: 110%;
+		margin: 10px 0;
+	       }	
+	
    /* header */
 	
          .main-navigation {  display: none; } 

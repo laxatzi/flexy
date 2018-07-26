@@ -212,21 +212,20 @@
 	IMAGE SHOWCASE
 	-------------------------------------------------------------------*/
 	   .gallery {
-	            display: flex;
-				margin: auto;
-				flex-direction: column;
-			}
+	             display: flex;
+		     margin: auto;
+		     flex-direction: column;
+		    }
 			   
 			 
-	       .thumbnail {
-		               
-					   display: flex;
-					   flex-wrap: wrap;
- 					   justify-content: space-around;
- 	                   align-items: center;
-					   margin:0 auto;
-			           max-width: 900px;
-					  }
+	     .thumbnail {
+		         display: flex;
+			 flex-wrap: wrap;
+ 			 justify-content: space-around;
+ 	                 align-items: center;
+			 margin:0 auto;
+			 max-width: 900px;
+			}
 				.thumbnail img {
 				    margin: 10px auto;
 					padding: 0;

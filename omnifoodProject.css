@@ -292,23 +292,13 @@
 	  h3 { margin: 15px 0; }
 					
 	  h1 {
-	      color: #fff;
-	      font-size: 200%;
+	      padding: 10px;
+	      font-size: 180%;
 	     }
 
-	   h2 {
-	       font-size: 150%;
-	     
-	      }
+	   h2 { font-size: 150%; }
 				 
-	   h2:after {
-		     display: block;
-		     height: 2px;
-		     width: 5em;
-		     background-color: #ee5253;
-		     margin: 15px auto;
-		     content: "";
-		    }
+	   h2:after { width: 3em; }
 
             h3 {
 	        font-size: 110%;

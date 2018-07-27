@@ -75,22 +75,22 @@
          <h2>Have a look at our meals!</h2>
 	 <div class="thumbnail">
 	   <a href="RsourcesNew/img/asparagusAndSteak.jpg">
-	      <img src="RsourcesNew/img/asparagusAndSteak.jpg" alt="" >
+	      <img src="RsourcesNew/img/asparagusAndSteak.jpg" alt="picture of asparagus and steak plate" >
 	   </a>
 	   <a href="RsourcesNew/img/asparagusAndMeat.jpg" >
-	      <img src="RsourcesNew/img/asparagusAndMeat.jpg" alt="" >
+	      <img src="RsourcesNew/img/asparagusAndMeat.jpg" alt="picture of asparagus and meat plate" >
 	   </a>
 	   <a href="RsourcesNew/img/cheeseCake.jpg" >
-	      <img src="RsourcesNew/img/cheeseCake.jpg" alt="" >
+	      <img src="RsourcesNew/img/cheeseCake.jpg" alt="picture of a cheesecake" >
 	   </a>
 	   <a href="RsourcesNew/img/panini.jpg" >
-	      <img src="RsourcesNew/img/panini.jpg" alt="" >
+	      <img src="RsourcesNew/img/panini.jpg" alt="picture of an italian sandwitch" >
 	   </a>
 	   <a href="RsourcesNew/img/pizza.jpg" >
-	      <img src="RsourcesNew/img/pizza.jpg" alt="" >
+	      <img src="RsourcesNew/img/pizza.jpg" alt="picture of a pizza" >
 	   </a>
 	   <a href="RsourcesNew/img/sandwitch.jpg" >
-	      <img src="RsourcesNew/img/sandwitch.jpg" alt="" >
+	      <img src="RsourcesNew/img/sandwitch.jpg" alt="picture of a sandwitch" >
 	   </a>
 	</div>
      </div>

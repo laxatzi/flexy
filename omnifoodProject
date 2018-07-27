@@ -96,10 +96,15 @@
      </div>
  </section>	 
  <!-- HOW IT WORKS -->
- <section class="section row section-steps">
+ <section class="section  section-steps">
    <div class="row">
    <h2>How it works &dash; simple as 1, 2, 3</h2>
-
+   <div class="step-box">
+       <div class="mobile">
+       </div>
+       <div class="work-steps">
+       </div>
+   </div>
    </div>
 </section>
  </body>

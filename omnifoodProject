@@ -74,29 +74,29 @@
       <div class="gallery span-3-of-4">
          <h2>Have a look at our meals!</h2>
 	 <div class="thumbnail">
-	   <a href="#">
+	   <a href="RsourcesNew/img/asparagusAndSteak.jpg">
 	      <img src="RsourcesNew/img/asparagusAndSteak.jpg" alt="" >
 	   </a>
-	   <a href="#" >
+	   <a href="RsourcesNew/img/asparagusAndMeat.jpg" >
 	      <img src="RsourcesNew/img/asparagusAndMeat.jpg" alt="" >
 	   </a>
-	   <a href="#" >
+	   <a href="RsourcesNew/img/cheeseCake.jpg" >
 	      <img src="RsourcesNew/img/cheeseCake.jpg" alt="" >
 	   </a>
-	   <a href="#" >
+	   <a href="RsourcesNew/img/panini.jpg" >
 	      <img src="RsourcesNew/img/panini.jpg" alt="" >
 	   </a>
-	   <a href="#" >
+	   <a href="RsourcesNew/img/pizza.jpg" >
 	      <img src="RsourcesNew/img/pizza.jpg" alt="" >
 	   </a>
-	   <a href="#" >
+	   <a href="RsourcesNew/img/sandwitch.jpg" >
 	      <img src="RsourcesNew/img/sandwitch.jpg" alt="" >
 	   </a>
 	</div>
      </div>
  </section>	 
  <!-- HOW IT WORKS -->
- <section class="section section-howWorks">
+ <section class="section row section-howWorks">
 
 </section>
  </body>

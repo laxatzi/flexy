@@ -40,7 +40,7 @@
        </div>
     </header>
 <!-- FEATURES -->
-    <section class="features section">
+    <section class="section-features section">
 <!-- Features section heading -->
     <div class="row feature-greetings">
         <h2>Get food fast &dash; No fast food</h2>
@@ -70,7 +70,7 @@
 	</div>
    </div>
    </section>
-   <section class="section row ">
+   <section class="section row section-gallery">
       <div class="gallery span-3-of-4">
          <h2>Have a look at our meals!</h2>
 	 <div class="thumbnail">
@@ -95,7 +95,9 @@
 	</div>
      </div>
  </section>	 
-		 <!-- HOW IT WORKS -->
-	 
+ <!-- HOW IT WORKS -->
+ <section class="section section-howWorks">
+
+</section>
  </body>
 </html>

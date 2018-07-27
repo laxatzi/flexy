@@ -97,7 +97,10 @@
  </section>	 
  <!-- HOW IT WORKS -->
  <section class="section row section-steps">
+   <div class="row">
+   <h2>How it works &dash; simple as 1, 2, 3</h2>
 
+   </div>
 </section>
  </body>
 </html>

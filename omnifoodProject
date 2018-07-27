@@ -74,22 +74,22 @@
       <div class="gallery span-3-of-4">
          <h2>Have a look at our meals!</h2>
 	 <div class="thumbnail">
-	   <a href="RsourcesNew/img/asparagusAndSteak.jpg">
+	   <a href="RsourcesNew/img/asparagusAndSteak.jpg" data-title="Asparagus and steak" data-lightbox="gallery">
 	      <img src="RsourcesNew/img/asparagusAndSteak.jpg" alt="picture of asparagus and steak plate" >
 	   </a>
-	   <a href="RsourcesNew/img/asparagusAndMeat.jpg" >
+	   <a href="RsourcesNew/img/asparagusAndMeat.jpg" data-title="Asparagus and meat" data-lightbox="gallery">
 	      <img src="RsourcesNew/img/asparagusAndMeat.jpg" alt="picture of asparagus and meat plate" >
 	   </a>
-	   <a href="RsourcesNew/img/cheeseCake.jpg" >
+	   <a href="RsourcesNew/img/cheeseCake.jpg" data-title="Cheese Cake" data-lightbox="gallery">
 	      <img src="RsourcesNew/img/cheeseCake.jpg" alt="picture of a cheesecake" >
 	   </a>
-	   <a href="RsourcesNew/img/panini.jpg" >
+	   <a href="RsourcesNew/img/panini.jpg" data-title="Panini" data-lightbox="gallery" >
 	      <img src="RsourcesNew/img/panini.jpg" alt="picture of an italian sandwitch" >
 	   </a>
-	   <a href="RsourcesNew/img/pizza.jpg" >
+	   <a href="RsourcesNew/img/pizza.jpg" data-title="Pizza" data-lightbox="gallery">
 	      <img src="RsourcesNew/img/pizza.jpg" alt="picture of a pizza" >
 	   </a>
-	   <a href="RsourcesNew/img/sandwitch.jpg" >
+	   <a href="RsourcesNew/img/sandwitch.jpg" data-title="Sandwitch" data-lightbox="gallery">
 	      <img src="RsourcesNew/img/sandwitch.jpg" alt="picture of a sandwitch" >
 	   </a>
 	</div>

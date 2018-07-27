@@ -239,6 +239,52 @@
 					box-shadow: 0 0 7px rgba(0, 0, 0, .5);
 					opacity: 1;
 				      }
+   /*------------------------------------------------------------------
+	HOW IT WORKS 
+	-------------------------------------------------------------------*/	
+   .section-steps {background-color:  #EDEDED; }   
+   .step-box {
+	     display: flex;
+		
+	}	
+	   .mobile {
+	       flex: 1;
+		   display: flex;
+		   padding: 0;
+		   margin: 0;
+		   padding: 15px;
+	    }
+		.mobile > img { height: 20em;
+                		margin:0;
+						margin-left: 50%;
+						}
+		
+		.work-steps {
+		    flex: 1;
+			padding: 65px;
+		}
+		   .step {margin-bottom: 1rem;
+         		   display: flex;
+				   }
+		   
+		   .step>div { 
+					  color: #ee5253;
+					  border: 3px solid #ee5253;
+					  display: inline-block;
+					  border-radius: 50%;
+					  height: 2.5rem;
+					  width: 2rem;
+					  text-align: center;
+					  padding: .25rem;
+					  font-size: 150%;
+					  float: left;
+					  flex:1;
+					 }
+			.step >p {
+			     flex: 9;
+				 margin-left: 3%;
+			}
+			.btn-app img {margin-top: 2rem; }
 /*------------------------------------------------------------------
    MAX 900px
 -------------------------------------------------------------------*/	

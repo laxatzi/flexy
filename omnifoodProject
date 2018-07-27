@@ -101,8 +101,25 @@
    <h2>How it works &dash; simple as 1, 2, 3</h2>
    <div class="step-box">
        <div class="mobile">
+           <div class="mobile">
+	      <img src="RsourcesNew/img/app-iPhone.png" alt="iPhone picture" >
+	   </div>
        </div>
        <div class="work-steps">
+           <div class="step">
+	      <div>1</div>
+	      <p>Choose the subscription plan that best suits you.</p>
+           </div>
+	   <div class="step">
+	      <div>2</div>
+	      <p>Order your delicious meal using our mobile app or website.</p>
+	   </div>
+	   <div class="step">
+	      <div>3</div>
+	      <p>Enjoy your meal after less than 20 minutes.</p>
+	   </div>
+<!--  android app button  -->	   
+	   <a href="#" class="btn-app"><img src="RsourcesNew/img/download-app-android.png" alt="app android button" ></a>
        </div>
    </div>
    </div>

@@ -38,9 +38,8 @@
 			display: block;
 			height: 2px;
 			width: 5em;
-		 margin: 15px auto;
+		        margin: 15px auto;
 			background-color: #ee5253;
-			
 			content: "";
 			}
 	  .box { padding: 1% .5%; }
@@ -76,9 +75,8 @@
 		     display: block;
 		     height: 2px;
 		     width: 5em;
-		   margin: 15px auto;
+		     margin: 15px auto;
 		     background-color: #ee5253;
-		     
 		     content: "";
 		    }
 
@@ -130,7 +128,7 @@
 	    
 		.icon {
 		       display: block;
-			 margin-bottom: 10px;
+		       margin-bottom: 10px;
 		       color: #ee5253;
 		       font-size: 250%;
 		      
@@ -160,11 +158,9 @@
 	nav { 
 	     display: flex;
 	     flex-direction: row; 
-		
 	     justify-content: center;
-		padding: .5rem;
+	     padding: .5rem;
 	     border: 1px solid red;	 
-	     
 	    } 
 			   
 	.logo { 
@@ -179,13 +175,11 @@
 		    }
 					 
 	.main-navigation {
-			 
 			  display: flex;
 			  align-items: center;
 			  justify-content: flex-end;
 			  flex:4; 
-			 
-		 list-style: none;
+			  list-style: none;
 			 } 
 								
 	.main-navigation li { 
@@ -195,7 +189,7 @@
 								 
 	.main-navigation li a:link,
 	.main-navigation li a:visited {
-					padding: 8px 0; 
+				       padding: 8px 0; 
                                        text-decoration: none;
 			               color: #fff;
 			               text-transform: uppercase;
@@ -253,9 +247,8 @@
    .section-steps {background-color:  #EDEDED; }   
       .step-box { display: flex; }	
       .mobile {
-	       flex: 1;
 	       display: flex;
-	      
+	       flex: 1;
 	       margin: 0;
 	       padding: 15px;
 	    }
@@ -275,22 +268,17 @@
 		}
 		   
 	 .step>div { 
-		 display: inline-block;
-		  flex:1;
-		 padding: .25rem;
-		 height: 2.5rem;
-		  width: 2rem;
-		 float: left;
+		    display: inline-block;
+		    flex:1;
+		    padding: .25rem;
+		    height: 2.5rem;
+		    width: 2rem;
+		    float: left;
 		    color: #ee5253;
-		    
-		    
 		    text-align: center;
-		    
 		    font-size: 150%;
 		    border: 3px solid #ee5253;
-		    
 		    border-radius: 50%;
-		   
 		   }
 	  .step >p {
 	            flex: 9;
@@ -304,18 +292,16 @@
     
 	h2,
 	h3 {
-	    
 	    padding: 0;
 	    margin: 10px 0;
-		text-align: center;
-	}
+            text-align: center;
+	   }
 	
 	 .feature-items { 
 		 	display: flex;
 		        flex-direction: column;
-			
 			align-items: center;
-                       }
+                        }
 			
 	    .box {
 		  padding: 1% .5%;
@@ -332,16 +318,14 @@
 	html { font-size: 15px;}
 	h2,
 	h3 {
-	    
 	    padding: 0;
 	    margin: 10px 0;
-		text-align: center;
+	    text-align: center;
 	   }
 
 	   .feature-items { 
-		   		display: flex;
+		   	   display: flex;
 		           flex-direction: column;
-			   
 			   align-items: center;
                           }
 			
@@ -373,7 +357,6 @@
             h3 {
 		margin: 10px 0;    
 	        font-size: 110%;
-		
 	       }	
 	
    /* header */

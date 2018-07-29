@@ -275,17 +275,22 @@
 		}
 		   
 	 .step>div { 
+		 display: inline-block;
+		  flex:1;
+		 padding: .25rem;
+		 height: 2.5rem;
+		  width: 2rem;
+		 float: left;
 		    color: #ee5253;
-		    border: 3px solid #ee5253;
-		    display: inline-block;
-		    border-radius: 50%;
-		    height: 2.5rem;
-		    width: 2rem;
+		    
+		    
 		    text-align: center;
-		    padding: .25rem;
+		    
 		    font-size: 150%;
-		    float: left;
-		    flex:1;
+		    border: 3px solid #ee5253;
+		    
+		    border-radius: 50%;
+		   
 		   }
 	  .step >p {
 	            flex: 9;
@@ -299,14 +304,16 @@
     
 	h2,
 	h3 {
-	    text-align: center;
+	    
 	    padding: 0;
 	    margin: 10px 0;
+		text-align: center;
 	}
 	
 	 .feature-items { 
+		 	display: flex;
 		        flex-direction: column;
-			display: flex;
+			
 			align-items: center;
                        }
 			
@@ -325,14 +332,16 @@
 	html { font-size: 15px;}
 	h2,
 	h3 {
-	    text-align: center;
+	    
 	    padding: 0;
 	    margin: 10px 0;
+		text-align: center;
 	   }
 
 	   .feature-items { 
+		   		display: flex;
 		           flex-direction: column;
-			   display: flex;
+			   
 			   align-items: center;
                           }
 			
@@ -362,8 +371,9 @@
 	   h2:after { width: 3em; }
 
             h3 {
+		margin: 10px 0;    
 	        font-size: 110%;
-		margin: 10px 0;
+		
 	       }	
 	
    /* header */

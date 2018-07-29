@@ -38,8 +38,9 @@
 			display: block;
 			height: 2px;
 			width: 5em;
+		 margin: 15px auto;
 			background-color: #ee5253;
-			margin: 15px auto;
+			
 			content: "";
 			}
 	  .box { padding: 1% .5%; }
@@ -75,8 +76,9 @@
 		     display: block;
 		     height: 2px;
 		     width: 5em;
+		   margin: 15px auto;
 		     background-color: #ee5253;
-		     margin: 15px auto;
+		     
 		     content: "";
 		    }
 
@@ -112,9 +114,10 @@
 				   }
 		.btn-info:hover,
 		.btn-info:active {
+			color: #fff;
 				  border: 1px solid #772929;
 			          background-color:  #772929;
-				  color: #fff;
+				  
 				 }
 	/* PARAGRAPH */
 		.long-copy { 
@@ -127,9 +130,10 @@
 	    
 		.icon {
 		       display: block;
+			 margin-bottom: 10px;
 		       color: #ee5253;
 		       font-size: 250%;
-		       margin-bottom: 10px;
+		      
 		       }
 
 		.box:hover .icon { transform: scale(1) rotate(1deg); }
@@ -156,9 +160,11 @@
 	nav { 
 	     display: flex;
 	     flex-direction: row; 
-	     border: 1px solid red;	 
-	     padding: .5rem;
+		
 	     justify-content: center;
+		padding: .5rem;
+	     border: 1px solid red;	 
+	     
 	    } 
 			   
 	.logo { 
@@ -173,12 +179,13 @@
 		    }
 					 
 	.main-navigation {
-			  list-style: none;
+			 
 			  display: flex;
 			  align-items: center;
 			  justify-content: flex-end;
 			  flex:4; 
-			  display: flex;
+			 
+		 list-style: none;
 			 } 
 								
 	.main-navigation li { 
@@ -188,13 +195,14 @@
 								 
 	.main-navigation li a:link,
 	.main-navigation li a:visited {
+					padding: 8px 0; 
                                        text-decoration: none;
 			               color: #fff;
 			               text-transform: uppercase;
 			               font-size: 90%;
 			               border-bottom: 3px solid transparent;
 			               transition: border-bottom .2s, color .2s;  
-			               padding: 8px 0; 
+			               
                     	              }
        .main-navigation li a:hover,
        .main-navigation li a:active {
@@ -247,7 +255,7 @@
       .mobile {
 	       flex: 1;
 	       display: flex;
-	       padding: 0;
+	      
 	       margin: 0;
 	       padding: 15px;
 	    }

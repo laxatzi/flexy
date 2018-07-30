@@ -332,38 +332,34 @@
 -------------------------------------------------------------------*/
      .section-signUp {
 	              background-color: #F4F4F4;
-		            display: flex;
-		 	        width: 100%;
-				   flex-direction: column;	
-				 }
-	     .package-box {
 		      display: flex;
-			  flex-direction: row;	
-			  margin: auto;
-		 }
+		      width: 100%;
+		      flex-direction: column;	
+		     }
+         .package-box {
+		       display: flex;
+		       flex-direction: row;	
+		       margin: auto;
+		       }
 	 .package-item {
-	      display: flex;
-		  background-color: #fff;
-	      
-		  margin: 0 1%;
-		  flex: 1;
-		  padding: 15px;	
-		flex-direction: column;	
-	 }
-        .package-header,
-       .package-details		{
-		     border-bottom: 1px dotted lightgrey;
-			
-		}
-		.package-headers,
-		.package-details,
-		.package-footer  {
-		      padding: 10px;
-			  flex: 1;
-			  display: flex;
-		}
-		.package-header {background-color: pink; }
-		
+	                display: flex;
+		        background-color: #fff;
+	                margin: 0 1%;
+		        flex: 1;
+		        padding: 15px;	
+		        flex-direction: column;	
+	               }
+       .package-header,
+       .package-details { border-bottom: 1px dotted lightgrey; }
+
+       .package-headers,
+       .package-details,
+       .package-footer {
+		        padding: 10px;
+			flex: 1;
+			display: flex;
+		        }
+	
 /*------------------------------------------------------------------
    MAX 900px
 -------------------------------------------------------------------*/	

@@ -41,7 +41,7 @@
     </header>
 <!-- FEATURES -->
     <section class="section-features section">
-<!-- Features section heading -->
+  <!-- Features section heading -->
     <div class="row feature-greetings">
         <h2>Get food fast &dash; No fast food</h2>
 	<p>Hello, we are Omnifood, your new premium food delivery service. We know you are always busy. No time for cooking. So let us take care of that. We are really good at it, we promise!</p>
@@ -70,6 +70,7 @@
 	</div>
    </div>
    </section>
+<!-- GALLERY -->
    <section class="section row section-gallery">
       <div class="gallery span-3-of-4">
          <h2>Have a look at our meals!</h2>
@@ -124,5 +125,42 @@
    </div>
    </div>
 </section>
+<!-- TESTIMONIALS -->
+<section class="section section-testimonials">
+		 <div class="row">
+		    <h2>Our customers can't live without us</h2>
+			<div class="testimonials-page">
+			   <div class="testimonial-box">
+				<div class="testimonial">
+					<blockquote> Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that i got used to it, i couldn't live without my daily meals. </blockquote>
+				</div>
+				<div class="client">
+					<img src="RsourcesNew/img/customer-1.jpg" alt="profile picture of Mario Andretti" >
+					<span> &dash; Alberto Moreno</span>
+				</div>
+			 </div>
+			
+			<div class="testimonial-box">
+				<div class="testimonial">
+					<blockquote>Inexpensive, healthy and great testing meals, delivered right to my home. We have lots of food delivery here in Lisbon, but none comes even close to Omnifood. Me and my family are so in love!</blockquote>
+				</div>
+				<div class="client">
+					<img src="RsourcesNew/img/customer-2.jpg" alt="profile picture of Mario Andretti" >
+					<span> &dash; Maria Silva </span>
+				</div>
+			 </div>
+			
+			<div class="testimonial-box">
+				<div class="testimonial">
+					<blockquote>Ι was looking for a quick and easy food delivery service here in San Francisco. I tried a lot of them and ended up with Omnifood.  Best food delivery service in the Bay area. Keep up the great work!</blockquote>
+				</div>
+				<div class="client">
+				   <img src="RsourcesNew/img/customer-3.jpg" alt="profile picture of Mario Andretti" >
+					<span> &dash; Mario Andretti</span>
+				</div>
+			 </div>
+			</div>
+		 </div>
+	 </section>
  </body>
 </html>

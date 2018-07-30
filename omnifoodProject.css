@@ -286,6 +286,86 @@
 		   }
 	  .btn-app img {margin-top: 2rem; }
 /*------------------------------------------------------------------
+    ^TESTIMONIALS
+-------------------------------------------------------------------*/	
+     .section-testimonials {
+	               background-color: goldenrod;
+				   background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/back-customers.jpg");
+				   background-repeat: no-repeat;
+				   background-size: cover;
+				   background-position: center;
+				   display: flex;
+				   flex-direction: column;
+				   color: #fff;	
+				   
+	                }
+	 		.testimonials-page {
+			                    display: flex;
+							justify-content: space-around;
+		                        align-items: center;
+								font-size: .9rem;
+								font-weight: 300;
+								font-style: oblique;
+								}	
+	.testimonial-box {
+	     flex: 1;
+         text-align: left;	
+         padding: 1.5%;		 
+	}
+		.testimonial-box  img { 
+		     border-radius: 50%;
+			 width: 30%;
+			 height: auto;	
+			 margin: 10px 0 2rem;	
+		}
+		.testimonial { position: relative; }
+		
+		blockquote:before {
+		    content: " \0022 ";
+			font-size: 500%	;
+			display: block;
+			position: absolute;
+			top: -15px;
+			left: -15px;	
+		}
+/*------------------------------------------------------------------
+   SIGN UP SECTION
+-------------------------------------------------------------------*/
+     .section-signUp {
+	              background-color: #F4F4F4;
+		            display: flex;
+		 	        width: 100%;
+				   flex-direction: column;	
+				 }
+	     .package-box {
+		      display: flex;
+			  flex-direction: row;	
+			  margin: auto;
+		 }
+	 .package-item {
+	      display: flex;
+		  background-color: #fff;
+	      
+		  margin: 0 1%;
+		  flex: 1;
+		  padding: 15px;	
+		flex-direction: column;	
+	 }
+        .package-header,
+       .package-details		{
+		     border-bottom: 1px dotted lightgrey;
+			
+		}
+		.package-headers,
+		.package-details,
+		.package-footer  {
+		      padding: 10px;
+			  flex: 1;
+			  display: flex;
+		}
+		.package-header {background-color: pink; }
+		
+/*------------------------------------------------------------------
    MAX 900px
 -------------------------------------------------------------------*/	
 @media screen and (max-width: 900px )	{

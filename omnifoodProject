@@ -190,43 +190,39 @@
 	  <span class="prize">149$ <small>per month</small></span>
 	  <p class="small">That's only 14.90 per meal</p>
       </div>
-					 <div class="package-details">
-						 <ul>
-							 <li>One meal 10/days per month</li>
-							 <li>Order 24/7</li>
-							 <li>Access to newest creations</li>
-							 <li>Free delivery</li>
-						 </ul>
-					 </div>
-					 <div class="package-footer">
-					     <input type="button" value="Sign up now">
-					 </div>
-					 
-				 </div>
-	<!-- starters -->	 
-				 <div class="package-item">
-				     <div class="package-header">
-					     <h3>Starter</h3> 
-						 <span class="prize">19$</span>
-						 					    <p class="small"></p>
+     <div class="package-details">
+        <ul>
+	  <li>One meal 10/days per month</li>
+	  <li>Order 24/7</li>
+	  <li>Access to newest creations</li>
+	  <li>Free delivery</li>
+        </ul>
+     </div>
+     <div class="package-footer">
+        <input type="button" value="Sign up now">
+     </div>
+  </div>
+<!-- starters -->	 
+  <div class="package-item">
+    <div class="package-header">
+       <h3>Starter</h3> 
+       <span class="prize">19$</span>
+       <p class="small"></p>
 
-					 </div>
-					 <div class="package-details">
-					    <ul>
-							<li>1 meal</li>
-							<li>Order 24/7</li>
-							<li></li>
-							<li>Free delivery</li>
-						</ul>
-						 
-					 </div>
-					 <footer class="package-footer">
-					     <input type="button" value=" Sign Up now"> 
-					 </footer> 
-					 
-				 </div>
-			
-		</div>
-	 </section>
+    </div>
+    <div class="package-details">
+       <ul>
+	  <li>1 meal</li>
+	  <li>Order 24/7</li>
+	  <li></li>
+	  <li>Free delivery</li>
+       </ul>
+     </div>
+     <footer class="package-footer">
+       <input type="button" value=" Sign Up now"> 
+     </footer> 
+    </div>
+   </div>
+  </section>
  </body>
 </html>

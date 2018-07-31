@@ -445,6 +445,18 @@
 		          width: 80%;
 			  flex-direction: column;	
 			 }
+	   .footer-upper {
+	                  display: flex;
+		          flex-direction: column;
+			  align-items: center;
+			 }
+	   .footer-lower {
+	                  display: flex;
+			  flex-direction: column;
+			  align-items:center;
+			  justify-content: flex-start;
+			 }
+	   .footer-social { padding: 1rem; }
 }
 			
 /*------------------------------------------------------------------

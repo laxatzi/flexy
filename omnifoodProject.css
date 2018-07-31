@@ -327,7 +327,8 @@
 			  top: -15px;
 			  left: -15px;	
 		         }
-/*------------------------------------------------------------------
+
+*------------------------------------------------------------------
    SIGN UP SECTION
 -------------------------------------------------------------------*/
      .section-signUp {
@@ -336,29 +337,45 @@
 		      width: 100%;
 		      flex-direction: column;	
 		     }
-         .package-box {
-		       display: flex;
-		       flex-direction: row;	
-		       margin: auto;
-		       }
-	 .package-item {
-	                display: flex;
-		        background-color: #fff;
-	                margin: 0 1%;
-		        flex: 1;
-		        padding: 15px;	
-		        flex-direction: column;	
-	               }
-       .package-header,
-       .package-details { border-bottom: 1px dotted lightgrey; }
+        .package-box {
+		      display: flex;
+		      flex-direction: row;	
+		      margin: auto;
+		     }
+        .package-item {
+	               display: flex;
+		       background-color: #fff;
+	               margin: 0 .5%;
+		       flex: 1;
+		       padding: 5px;	
+		       flex-direction: column;	
+	             }
+	 .package-item li { 
+		           list-style: none;	
+		           padding-bottom: .5rem; 
+                           }
+	 .package-item li:last-child { padding-bottom: none; }
 
-       .package-headers,
-       .package-details,
-       .package-footer {
-		        padding: 10px;
-			flex: 1;
-			display: flex;
-		        }
+	 .package-item i { 
+			  color: #ee5253;
+			  margin-right: .5rem;
+	                 }
+	 .package-details { font-size: .8rem; }
+
+        .package-header,
+        .package-details { border-bottom: 1px dotted grey; }
+
+	.package-header,
+	.package-details,
+	.package-footer  { padding: 10px; }
+
+        .package-header small { font-size: .7rem; }
+
+	.prize {
+		font-size: 200%;
+	        color:  #ee5253;
+	       }
+	.small {font-size: 70%; }
 	
 /*------------------------------------------------------------------
    MAX 900px

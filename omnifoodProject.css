@@ -376,7 +376,48 @@
 	        color:  #ee5253;
 	       }
 	.small {font-size: 70%; }
-	
+/*------------------------------------------------------------------
+     FOOTER
+-------------------------------------------------------------------*/		
+        .footer { background-color: #333333;   }
+	.footer-upper { display: flex; }
+	.footer-menu { flex: 1; }
+        .footer-social { 
+			flex: 1;
+			text-align: right;
+		       }
+	.footer-social a:link,
+        .footer-social a:visited {
+	                          color: #888;
+	 			 }	 
+	 .footer-social a:hover,
+	 .footer-social a:focus {
+	      			 color: #fff;
+	 			}
+	 .footer-social i { 
+			   font-size: 150%;
+			   margin-right: .55rem;
+			   text-align: right;
+			  }
+	 .footer-upper li { list-style: none; }
+	 .footer-lower {
+		        text-align: center;
+			padding-top: 1rem;
+	               }
+	 .footer-menu a:link,
+	 .footer-menu a:visited {
+	                         color: #888;
+		                 text-decoration: none;
+		                 font-size: .85rem;
+		                 display: inline-block;
+		                 margin-right: .25rem;
+		                 padding: .5rem;
+	                         }
+	 
+	 .footer-menu a:hover,
+	 .footer-menu a:focus {
+	                       color: #fff;
+	                       }	
 /*------------------------------------------------------------------
    MAX 900px
 -------------------------------------------------------------------*/	

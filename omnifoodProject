@@ -226,28 +226,26 @@
   </section>
  <!-- FOOTER SECTION -->
  <footer class="footer section">
-	 
-	    <div class="footer-upper">
-	         <div class="footer-menu">
-			    <ul>
-					<a href="#" ><li>About us</li></a>
-					<a href="#" ><li>Blog</li></a>
-					<a href="#" ><li>Press</li></a>
-					<a href="#" ><li>iOS App</li></a>
-					<a href="#" ><li>Android App</li></a>
-				</ul>
-		     </div>
-		     <div class="footer-social">
-			      <a href="#" ><i class="fab fa-twitter-square"></i></a>
-				  <a href="#" ><i class="fab fa-facebook-square"></i></a>
-				  <a href="#" ><i class="fab fa-google-plus-square"></i></a>
-				  <a href="#" ><i class="fab fa-instagram"></i></a>
-		     </div>
-		 </div>
-		 <div class="footer-lower">
-			 <span>Copyright &copy; 2017 by OmniFood. All rights reserved</span>
-		 </div>
-		 
-	 </footer>
+     <div class="footer-upper">
+        <div class="footer-menu">
+	   <ul>
+	      <a href="#" ><li>About us</li></a>
+	      <a href="#" ><li>Blog</li></a>
+	      <a href="#" ><li>Press</li></a>
+	      <a href="#" ><li>iOS App</li></a>
+	      <a href="#" ><li>Android App</li></a>
+	   </ul>
+	 </div>
+	 <div class="footer-social">
+	    <a href="#" ><i class="fab fa-twitter-square"></i></a>
+	    <a href="#" ><i class="fab fa-facebook-square"></i></a>
+	    <a href="#" ><i class="fab fa-google-plus-square"></i></a>
+	    <a href="#" ><i class="fab fa-instagram"></i></a>
+	 </div>
+      </div>
+      <div class="footer-lower">
+          <span>Copyright &copy; 2017 by OmniFood. All rights reserved</span>
+      </div>
+ </footer>
  </body>
 </html>

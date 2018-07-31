@@ -400,6 +400,10 @@
 		  width: 80%;
 		 }
 	    .icon { text-align: center; }
+	    .package-box {
+		          width: 80%;
+			  flex-direction: column;	
+			 }
 }
 			
 /*------------------------------------------------------------------
@@ -440,6 +444,22 @@
 	   .testimonial-box:last-child { margin-bottom: 0; }
 		
 	   .testimonial-box  img { width: 20%; }
+	
+	   .package-details { font-size: 1rem; }
+	 
+           .package-header small { font-size: .85rem; }
+	   .prize {
+		   font-size: 200%;
+	           color:  #ee5253;
+		  }
+		
+	   .small {font-size: 80%; }
+		
+	   .package-box {
+		         width: 80%;
+			 flex-direction: column;	
+		        }
+	   .package-item li {list-style: none;	 }
   }
 /*------------------------------------------------------------------
     MAX 585px

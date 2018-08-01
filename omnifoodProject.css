@@ -393,18 +393,18 @@
 	     	        }
         .form-outer .textarea { align-items: flex-start; }
 	  
-	  .form-outer div label {  
-	       padding: 8px;
-		   flex: 1 0 120px;
-            max-width: 200px;
-	  }
-	  .form-outer  > div > label + *   {
-                  flex: 1 0 220px;
-				  padding: .5rem;
-				  border: 1px solid #888;
-				  border-radius: 2px;
-				 }
-	 .form-submit_button {justify-content: center; }
+	.form-outer div label {  
+	       		       padding: 8px;
+		               flex: 1 0 120px;
+                               max-width: 200px;
+	                      }
+        .form-outer  > div > label + * {
+                                        flex: 1 0 220px;
+				        padding: .5rem;
+				        border: 1px solid #888;
+				        border-radius: 2px;
+				       }
+       .form-submit_button { justify-content: center; }
 /*------------------------------------------------------------------
      FOOTER
 -------------------------------------------------------------------*/		

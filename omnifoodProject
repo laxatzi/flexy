@@ -224,45 +224,42 @@
     </div>
    </div>
   </section>
-   <section class="section section-contactform">
-	    <h2>we are happy to hear from you</h2>
-		
-		 <div class="contact-form" >
-		 <form   class="form-outer">
-		 
-			 <div>
-				 <label for="name">Name</label>
-				 <input id="name" type="text" placeholder="Enter name">
-			</div>
-			 <div>
-				 <label for="email">Email</label>
-				 <input id="email" type="email" placeholder="Enter email">
-			 </div>
-			 <div>
-				 <label for="email">How did you find us?</label>
-				 <select>
-					 <option value="search engines" selected>Search Engines</option>
-					 <option value="friends">Friends</option>
-					 <option value="advertisment">Advertisment</option>
-					 <option value="other">Other</option>
-				 </select>
-			 </div>
-			 <div class="newsletter">
-				 <label for="newsletter">Newsletter?</label>
-				 <input id="newsletter" type="checkbox">&nbsp; Yes please!
-			 </div> 
-			 <div class="textarea">
-				 <label for="">Drop as a line</label>
-				 <textarea  rows="3" placeholder="Your message..."></textarea>
-			 </div>
-			 <div class="form-submit_button">
-					<a href="#" class="btn btn-action" >Send it!</a> 
-			 </div>
-			 
-			</form>
-		 </div>
-		
-	 </section>
+  <!-- CONTACT FORM -->
+  <section class="section section-contactform">
+     <h2>we are happy to hear from you</h2>
+     <div class="contact-form" >
+        <form   class="form-outer">
+	   <div>
+	      <label for="name">Name</label>
+	      <input id="name" type="text" placeholder="Enter name">
+	   </div>
+	   <div>
+	      <label for="email">Email</label>
+	      <input id="email" type="email" placeholder="Enter email">
+	   </div>
+	   <div>
+	      <label for="email">How did you find us?</label>
+	      <select>
+	         <option value="search engines" selected>Search Engines</option>
+		 <option value="friends">Friends</option>
+		 <option value="advertisment">Advertisment</option>
+		 <option value="other">Other</option>
+	      </select>
+	   </div>
+	   <div class="newsletter">
+	      <label for="newsletter">Newsletter?</label>
+	      <input id="newsletter" type="checkbox">&nbsp; Yes please!
+	   </div> 
+	   <div class="textarea">
+	      <label for="">Drop as a line</label>
+	      <textarea  rows="3" placeholder="Your message..."></textarea>
+	   </div>
+	   <div class="form-submit_button">
+	      <a href="#" class="btn btn-action" >Send it!</a> 
+	   </div>
+	</form>
+     </div>
+ </section>
  <!-- FOOTER SECTION -->
  <footer class="footer section">
      <div class="footer-upper">

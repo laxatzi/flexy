@@ -380,18 +380,18 @@
    CONTACT FORM
 -------------------------------------------------------------------*/	
   
-	  .form-outer { 
-	       width: 60%;
-		   margin: auto;
-		   padding: 0;
-	  }
-	  .form-outer div {
-	       display: flex;
-		   align-items: center;
-		   margin-bottom: 20px;
-		   flex-wrap: wrap;
-	  }
-	  .form-outer .textarea { align-items: flex-start; }
+	.form-outer { 
+	             width: 60%;
+		     margin: auto;
+		     padding: 0;
+	            }
+	.form-outer div {
+	                 display: flex;
+		         align-items: center;
+		         margin-bottom: 20px;
+		         flex-wrap: wrap;
+	     	        }
+        .form-outer .textarea { align-items: flex-start; }
 	  
 	  .form-outer div label {  
 	       padding: 8px;

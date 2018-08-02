@@ -14,21 +14,20 @@
 	 font-weight: 400;
 	 line-height: 145%;
         }
-
-	img {
+        img {
 	     max-width: 100%;
 	     height: auto;
 	     vertical-align: middle;
 	     border: 0;
 	    }
-     p { font-size: 90%; }
+          p { font-size: 90%; }
 	 
 /*------------------------------------------------------------------
     GRID
 -------------------------------------------------------------------*/
-section { min-width: 300px; }
-.section { padding: 2rem 10px; }
-.box { padding: 1%; }
+         section { min-width: 300px; }
+        .section { padding: 2rem 10px; }
+        .box { padding: 1%; }
 
 /*------------------------------------------------------------------
      REUSABLE COMPONENTS
@@ -48,6 +47,7 @@ section { min-width: 300px; }
 	      word-spacing: 4px;
 	      letter-spacing: 1px;
 	      line-height: 145%;
+	      padding: 0 10px; 
 	     }
 
 	   h2 {
@@ -55,6 +55,7 @@ section { min-width: 300px; }
 	       word-spacing: 2px;
 	       text-align: center;
 	       letter-spacing: 1px;
+	       padding: 0 0 20px 0;
 	      }
 				 
 	   h2:after {
@@ -98,10 +99,9 @@ section { min-width: 300px; }
 				   }
 		.btn-info:hover,
 		.btn-info:active {
-			color: #fff;
+			          color: #fff;
 				  border: 1px solid #772929;
 			          background-color:  #772929;
-				  
 				 }
 	/* PARAGRAPH */
 		.long-copy { 
@@ -110,15 +110,12 @@ section { min-width: 300px; }
 			    text-align: center;
 			   }
       /* ICONS */
-                /* icons				    */
-	    
-		.icon {
+                .icon {
 		       display: block;
 		       margin-bottom: 10px;
 		       color: #ee5253;
-		       font-size: 250%;
-		      
-		       }
+		       font-size: 200%;
+		      }
 
 		.box:hover .icon { transform: scale(1) rotate(1deg); }
 /*------------------------------------------------------------------
@@ -136,8 +133,6 @@ section { min-width: 300px; }
 		 }
 				  
 	  .hero-text { margin: auto; } 
-	  
-	 
 /*------------------------------------------------------------------
 			NAV
 -------------------------------------------------------------------*/		
@@ -146,7 +141,6 @@ section { min-width: 300px; }
 	     flex-direction: row; 
 	     justify-content: center;
 	     padding: .5rem;
-	     border: 1px solid red;	 
 	    } 
 			   
 	.logo { 
@@ -193,10 +187,10 @@ section { min-width: 300px; }
 /*------------------------------------------------------------------
     FEATURES
 -------------------------------------------------------------------*/
-	         
-	 .feature-items {
+	   .feature-items {
 			  display: flex;
 			  align-items: stretch;
+		          margin: 2rem auto 0;
 			}
 /*------------------------------------------------------------------
 	IMAGE SHOWCASE
@@ -230,7 +224,7 @@ section { min-width: 300px; }
    /*------------------------------------------------------------------
 	HOW IT WORKS 
 	-------------------------------------------------------------------*/	
-   .section-steps {background-color:  #EDEDED; }   
+      .section-steps {background-color:  #f4f4f4; }   
       .step-box { display: flex; }	
       .mobile {
 	       display: flex;
@@ -270,7 +264,7 @@ section { min-width: 300px; }
 	            flex: 9;
 		    margin-left: 3%;
 		   }
-	  .btn-app img {margin-top: 2rem; }
+	  .btn-app img { margin-top: 2rem; }
 /*------------------------------------------------------------------
     ^TESTIMONIALS
 -------------------------------------------------------------------*/	
@@ -284,13 +278,17 @@ section { min-width: 300px; }
 			    flex-direction: column;
 			    color: #fff;	
 			   }
-        .testimonials-page {
+      .section-testimonals h2 {padding: 20px 0; } 
+
+      .testimonials-page {
 			    display: flex;
 			    justify-content: space-around;
 		            align-items: center;
 			    font-size: .9rem;
 			    font-weight: 300;
 			    font-style: oblique;
+			    width: 90%;
+		            margin: auto;
 			   }	
 	.testimonial-box {
 	                  flex: 1;
@@ -340,7 +338,7 @@ section { min-width: 300px; }
 		           list-style: none;	
 		           padding-bottom: .5rem; 
                            }
-	 .package-item li:last-child { padding-bottom: none; }
+	 .package-item li:last-child { padding-bottom: 0; }
 
 	 .package-item i { 
 			  color: #ee5253;
@@ -390,6 +388,7 @@ section { min-width: 300px; }
 				        border: 1px solid #888;
 				        border-radius: 2px;
 				       }
+       .newsletter > label + input { flex: 0; }
        .form-submit_button { justify-content: center; }
 /*------------------------------------------------------------------
      FOOTER

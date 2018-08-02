@@ -26,23 +26,9 @@
 /*------------------------------------------------------------------
     GRID
 -------------------------------------------------------------------*/
-         .row {
-	       max-width: 1100px; 
-	       margin: 0 auto;
-	      }
-         .section {
-		   padding: 2rem 10px;
-                  }
-
-         section:after {
-			display: block;
-			height: 2px;
-			width: 5em;
-		        margin: 15px auto;
-			background-color: #ee5253;
-			content: "";
-			}
-	  .box { padding: 1% .5%; }
+section { min-width: 300px; }
+.section { padding: 2rem 10px; }
+.box { padding: 1%; }
 
 /*------------------------------------------------------------------
      REUSABLE COMPONENTS

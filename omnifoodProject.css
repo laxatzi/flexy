@@ -567,7 +567,7 @@
 	      font-size: 180%;
 	     }
 
-	   h2 { font-size: 125%; }
+	   h2 { font-size: 110%; }
 				 
 	   h2:after { width: 3em; }
 
@@ -591,12 +591,6 @@
 		     font-weight: bold;
 		     }
 	
-	.hero-text h1 {
-	               margin-left: 10px;
-		       font-size: 200%;
-		       line-height: 150%;
-		      }
-	
 	 .links-div {
 	             display: flex;
 		     flex-direction: column;
@@ -605,7 +599,10 @@
 		     margin: auto;	
 	            }
 	 .btn-action,
-         .btn-info { flex:1; }
+         .btn-info { 
+		    flex:1;
+	            width: 200px;     
+	           }
 		
 	 .btn-action { margin-bottom: .5rem; }
 		
@@ -618,7 +615,10 @@
                         }
 			
 	 .box { padding: 1% .5%; }
-	 .thumbnail-box { justify-content: center; }
+	 .thumbnail-box { 
+		         justify-content: center;
+			 width: 100%;
+	                }
 	
 /* HOW IT WORKS */		
 			
@@ -648,7 +648,19 @@
     MAX 400px
 -------------------------------------------------------------------*/
 @media screen and (max-width: 400px) {
-
+/* BASIC */
+        h1 { 
+	    font-size: 140%;
+	    padding: 5px;
+	   }
+	 h3 { font-size: 1rem; }
+/* GRID */
+	.section { padding: 1.5rem 10px; }
+/* REUSABLE */
+	.btn-action,
+        .btn-info { flex:1;
+		    width: 180px;
+                  } 
    /* HOW IT WORKS */		
 	.step { 
 	       width: 90%; 
@@ -659,5 +671,10 @@
 		      width: 40%;
 		      min-width: 120px;
 		     }
+   /* PACKAGES */
+	package-item { width: 100%;  }
+   /* CONTACT FORM */
+        .newsletter span {display: none; }
+ /* 
 
 }

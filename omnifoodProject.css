@@ -655,20 +655,6 @@
 	       }	
 	
    /* header */
-	
-         .main-navigation {  display: none; } 
-	 .logo { justify-content: flex-start; }
-	 .hamburger {
-	             display: flex;
-		     flex: 1;
-		     justify-content: flex-end;
-		     align-items: center;
-		     margin-right: 1rem;
-		     color: #fff;
-		     font-size: 2rem;
-		     font-weight: bold;
-		     }
-	
 	 .links-div {
 	             display: flex;
 		     flex-direction: column;

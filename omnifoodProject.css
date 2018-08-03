@@ -478,6 +478,22 @@
 	      width: 80%;
 	     }
 	.icon { text-align: center; }
+	
+/* CITIES */
+        .cities-box { font-size: 80%; }	
+	.cities-box li {
+			list-style: none;
+			padding: .15rem .35rem;
+			}
+	.cities-box i,
+         .cities-box li a { color: #E6813A; }
+	
+	.cities-box i {margin-right: .5rem; }
+        .city h3 {
+	          padding: 10px;
+		  margin: 0;	
+		 }
+	
 /* TESTIMONIALS */
 	.testimonials-page {
 			    width: 80%;

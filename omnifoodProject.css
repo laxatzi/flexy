@@ -564,6 +564,26 @@
 	 .icon { text-align: center; }
 /* GALLERY */
 	 .thumbnail-box { width: 80%; }
+	
+/* CITIES */
+	.cities-box {
+	             flex-direction: column;
+		     font-size: 100%;
+		    }	
+	.cities-box li {
+		        list-style: none;
+			padding: .25rem .5rem;
+		        }
+	.cities-box i,
+        .cities-box li a { color: #E6813A; }
+	.cities-box i { margin-right: .5rem; }				  
+	.city { margin-bottom: 2.5rem; }
+	.city:last-child { margin-bottom: 1rem; }
+	.cities-box h3 { 
+		        text-align: left;
+		        padding: 25px;
+	                }
+	
 /* TESTIMONIALS */ 
 	.testimonial-box { 
 	                  width: 100%;
@@ -675,6 +695,10 @@
 		         margin: 20px 34% 0;
 		         width: 32%;
 			}
+/* Cities */
+       .cities-box li { font-size: .85rem; }
+
+/* Testimonials */
 	blockquote:before {
 			   font-size: 300%;
 			   top: -15px;

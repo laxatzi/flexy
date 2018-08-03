@@ -546,16 +546,13 @@
 	    margin: 10px 0;
 	    text-align: center;
 	   }
-	 p {font-size: 100%; }
+	 p {font-size: 90%; }
 	
 /* ^HEADER */	
 	 .main-navigation li a:visited,
          .main-navigation li a:link  { font-size: 80%; }
         	
-	 .logo	{ 
-		 margin-left: 10%;
-		 justify-content: flex-start;
-		}
+	 .logo	{ margin-left: 10%; }
          .logo-image {
 	    	      height: 4rem;
 		      width: auto;

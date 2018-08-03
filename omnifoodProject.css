@@ -1,5 +1,5 @@
 /*------------------------------------------------------------------
-    BASIC
+    ^BASIC
 -------------------------------------------------------------------*/
 * {
    margin: 0;
@@ -23,7 +23,7 @@
           p { font-size: 90%; }
 	 
 /*------------------------------------------------------------------
-    GRID
+    ^GRID
 -------------------------------------------------------------------*/
          section,
          header { min-width: 300px; }
@@ -31,9 +31,9 @@
         .box { padding: 1%; }
 
 /*------------------------------------------------------------------
-     REUSABLE COMPONENTS
+     ^REUSABLE COMPONENTS
 -------------------------------------------------------------------*/	
- /*   HEADINGS     */
+ /*   ^HEADINGS     */
           h1,
 	  h2,
 	  h3 {
@@ -72,7 +72,7 @@
 	        font-size: 110%;
 		margin: 10px 0;
 	       }
-     /* BUTTONS */
+     /* ^BUTTONS */
 
 		.btn:link,
                 .btn:visited {
@@ -104,13 +104,13 @@
 				  border: 1px solid #772929;
 			          background-color:  #772929;
 				 }
-	/* PARAGRAPH */
+	/* ^PARAGRAPH */
 		.long-copy { 
 		            width: 70%;
 			    margin-left: 15%;
 			    text-align: center;
 			   }
-      /* ICONS */
+      /* ^ICONS */
                 .icon {
 		       display: block;
 		       margin-bottom: 10px;
@@ -120,7 +120,7 @@
 
 		.box:hover .icon { transform: scale(1) rotate(1deg); }
 /*------------------------------------------------------------------
-    HEADER
+    ^HEADER
 -------------------------------------------------------------------*/		   
 	  header {
 	          height: 100vh;
@@ -135,7 +135,7 @@
 				  
 	  .hero-text { margin: auto; } 
 /*------------------------------------------------------------------
-			NAV
+			^NAV
 -------------------------------------------------------------------*/		
 	nav { 
 	     display: flex;
@@ -186,7 +186,7 @@
 			            }
 
 /*------------------------------------------------------------------
-    FEATURES
+    ^FEATURES
 -------------------------------------------------------------------*/
 	   .feature-items {
 			  display: flex;
@@ -194,7 +194,7 @@
 		          margin: 2rem auto 0;
 			}
 /*------------------------------------------------------------------
-	IMAGE SHOWCASE
+	^IMAGE SHOWCASE
 	-------------------------------------------------------------------*/
 	   .gallery {
 	             display: flex;
@@ -223,7 +223,7 @@
 					opacity: 1;
 				      }
    /*------------------------------------------------------------------
-	HOW IT WORKS 
+	^HOW IT WORKS 
 	-------------------------------------------------------------------*/	
       .section-steps {background-color:  #f4f4f4; }   
       .step-box { display: flex; }	
@@ -335,7 +335,7 @@
 		         }
 
 *------------------------------------------------------------------
-   SIGN UP SECTION
+   ^SIGN UP SECTION
 -------------------------------------------------------------------*/
      .section-signUp {
 	              background-color: #F4F4F4;
@@ -383,7 +383,7 @@
 	       }
 	.small {font-size: 70%; }
 /*------------------------------------------------------------------
-   CONTACT FORM
+   ^CONTACT FORM
 -------------------------------------------------------------------*/	
   
 	.form-outer { 
@@ -413,7 +413,7 @@
        .newsletter > label + input { flex: 0; }
        .form-submit_button { justify-content: center; }
 /*------------------------------------------------------------------
-     FOOTER
+     ^FOOTER
 -------------------------------------------------------------------*/		
         .footer { background-color: #333333;   }
 	.footer-upper { display: flex; }
@@ -455,10 +455,10 @@
 	                       color: #fff;
 	                       }	
 /*------------------------------------------------------------------
-   MAX 900px
+   ^MAX 900px
 -------------------------------------------------------------------*/	
 @media screen and (max-width: 900px ) {
-    /* Basic */
+    /* ^Basic */
 	h2,
 	h3 {
 	    padding: 20px 0;
@@ -468,7 +468,7 @@
 	    line-height: 145%;    
 	    font-size: 140%;
            }
-/* Feature */
+/* ^Feature */
 	 .feature-items { 
 		 	 display: flex;
 		         flex-direction: column;
@@ -480,7 +480,7 @@
 	     }
 	.icon { text-align: center; }
 	
-/* CITIES */
+/* ^CITIES */
         .cities-box { font-size: 80%; }	
 	.cities-box li {
 			list-style: none;
@@ -495,7 +495,7 @@
 		  margin: 0;	
 		 }
 	
-/* TESTIMONIALS */
+/* ^TESTIMONIALS */
 	.testimonials-page {
 			    width: 80%;
 		            flex-direction: column;
@@ -505,7 +505,7 @@
 		               border-radius: 50%;
 			       width: 15%;
 			      }
-/*PacKages*/
+/* ^PacKages*/
 	 .package-item {
 	                margin: auto;
 		        margin-top: 30px;
@@ -516,7 +516,7 @@
 		          width: 80%;
 			  flex-direction: column;	
 			 }
-/*footer*/
+/*^footer*/
 	   .footer-upper {
 	                  display: flex;
 		          flex-direction: column;
@@ -532,10 +532,10 @@
 }
 			
 /*------------------------------------------------------------------
-   MAX 775px
+   ^MAX 775px
 -------------------------------------------------------------------*/			
 @media screen and (max-width: 775px ) {
-/* ΒASIC */
+/* ^ΒASIC */
 	html { font-size: 18px; }
 	h2,
 	h3 {
@@ -544,13 +544,33 @@
 	   }
 	 p {font-size: 100%; }
 	
-/* HEADER */	
+/* ^HEADER */	
 	 .main-navigation li a:visited,
-         .main-navigation li a:link  {
-                                      font-size: 80%;
-	                             }
-         .hero-text {padding: 10px; }	
+         .main-navigation li a:link  { font-size: 80%; }
+        	
+	 .logo	{ 
+		 margin-left: 10%;
+		 justify-content: flex-start;
+		}
+         .logo-image {
+	    	      height: 4rem;
+		      width: auto;
+		     }
+	.main-navigation {  display: none; } 
+ 	.sticky-navigation .main-navigation { display: none; } 
 	
+	 .hamburger {
+	             display: flex;
+		     flex:1;
+		 justify-content: flex-end;
+				 align-items: center;
+				 margin-right: 1rem;
+				 color: #fff;
+				 font-size: 2rem;
+				 font-weight: bold;
+			    }
+	  .sticky-navigation .hamburger { color: #000; }
+	 .hero-text {padding: 10px; }
 /* FEATURE */
 	 .feature-items { 
 		   	 display: flex;

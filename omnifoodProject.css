@@ -266,6 +266,26 @@
 		   }
 	  .btn-app img { margin-top: 2rem; }
 /*------------------------------------------------------------------
+ ^CITIES 
+-------------------------------------------------------------------*/
+    
+	.cities-box {
+	             display: flex;
+		     justify-content: space-around;
+		     align-items: center;
+								
+								font-weight: 300;
+								width: 90%;
+								margin: auto;	
+								}	
+				.cities-box li {
+				     list-style: none;
+					 padding: .25rem .5rem;
+				}
+				.cities-box i,
+                .cities-box li a	{ color: #E6813A; }
+				.cities-box i {margin-right: .5rem; }
+/*------------------------------------------------------------------
     ^TESTIMONIALS
 -------------------------------------------------------------------*/	
      .section-testimonials {

@@ -126,54 +126,49 @@
    
 </section>
  <!-- CITIES -->
-	 <section class="section section-cities">
-		 
-		    <h2>We are currently in these cities</h2>
-			<div class="cities-box">
-			
-				<div class="city">
-					<img src="RsourcesNew/img/lisbon-3.jpg" alt="picture of Lisbon" >
-					<h3>Lisbon</h3>
-					<ul>
-						<li><i class="fas fa-user"></i>1600+ happy eaters</li>
-						<li><i class="fas fa-star"></i>60+ top chefs</li>
-						<li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
-					</ul>
-				</div><!-- End of city 1 -->
+<section class="section section-cities">
+    <h2>We are currently in these cities</h2>
+        <div class="cities-box">
+	    <div class="city">
+	       <img src="RsourcesNew/img/lisbon-3.jpg" alt="picture of Lisbon" >
+	       <h3>Lisbon</h3>
+		  <ul>
+		     <li><i class="fas fa-user"></i>1600+ happy eaters</li>
+		     <li><i class="fas fa-star"></i>60+ top chefs</li>
+		     <li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
+		   </ul>
+	 </div>											<!-- End of city 1 -->
+	     <div class="city">
+	        <img src="RsourcesNew/img/san-francisco.jpg" alt="picture of Sans Francisco" >
+		<h3>San Francisco</h3>
+		<ul>
+		   <li><i class="fas fa-user"></i></i>1600+ happy eaters</li>
+		   <li><i class="fas fa-star"></i>60+ top chefs</li>
+		   <li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
+		</ul>
+	     </div>										<!-- End of city 2 -->
+		<div class="city">
+		   <img src="RsourcesNew/img/berlin.jpg" alt="picture of Berlin" >
+		   <h3>Berlin</h3>
+		   <ul>
+		      <li><i class="fas fa-user"></i>1600+ happy eaters</li>
+		      <li><i class="fas fa-star"></i>60+ top chefs</li>
+		      <li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
+		    </ul>
+                </div>         									 <!-- End of city 3 -->
+		    <div class="city">
+		       <img src="RsourcesNew/img/london.jpg" alt="picture of London" >
+		       <h3>London</h3>
+		       <ul>
+			  <li><i class="fas fa-user"></i>1600+ happy eaters</li>
+			  <li><i class="fas fa-star"></i>60+ top chefs</li>
+			  <li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
+			</ul>
+		   </div>										<!-- End of city 4 -->
 				
-				<div class="city">
-					<img src="RsourcesNew/img/san-francisco.jpg" alt="picture of Sans Francisco" >
-					<h3>San Francisco</h3>
-					<ul>
-						<li><i class="fas fa-user"></i></i>1600+ happy eaters</li>
-						<li><i class="fas fa-star"></i>60+ top chefs</li>
-						<li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
-					</ul>
-				</div><!-- End of city 2 -->
-				
-				<div class="city">
-					<img src="RsourcesNew/img/berlin.jpg" alt="picture of Berlin" >
-					<h3>Berlin</h3>
-					<ul>
-						<li><i class="fas fa-user"></i>1600+ happy eaters</li>
-						<li><i class="fas fa-star"></i>60+ top chefs</li>
-						<li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
-					</ul>
-				</div>  <!-- End of city 3 -->
-				
-				<div class="city">
-					<img src="RsourcesNew/img/london.jpg" alt="picture of London" >
-					<h3>London</h3>
-					<ul>
-						<li><i class="fas fa-user"></i>1600+ happy eaters</li>
-						<li><i class="fas fa-star"></i>60+ top chefs</li>
-						<li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
-					</ul>
-				</div><!-- End of city 4 -->
-				
-			</div>
-		 
-	 </section>
+         </div>
+</section>
+
 <!-- TESTIMONIALS -->
 <section class="section section-testimonials">
    

@@ -206,18 +206,18 @@
     </div>
 
 </section>
-<!-- SIGN UP -->
-<section class="section section-signUp">
+<!-- PLANS -->
+<section class="section section-plans section-plans--js">
    <h2>Start eating healthy today</h2>
-   <div class="package-box span-10-of-12">	 
+   <div class="plans-box span-10-of-12">	 
 <!-- Premier -->	 
-      <div class="package-item">
-         <div class="package-header">
+      <div class="plans-item">
+         <div class="plans-header">
 	    <h3>Premium</h3>
 	    <span class="prize">399$ <small>per month</small></span>
 	    <p class="small">That is only 13.30$ per meal</p>
 	 </div>
-	<div class="package-details">	 
+	<div class="plans-details">	 
 	   <ul>
 	      <li>1 meal every day</li>
 	      <li>Order 24/7</li>
@@ -225,18 +225,18 @@
 	      <li>Free delivery</li>
 	   </ul>
         </div>
-        <div class="package-footer">
+        <div class="plans-footer">
 	   <input type="button" value="Sign Up now">
 	</div>
    </div>
 <!-- pro -->
-   <div class="package-item">
-      <div class="package-header">
+   <div class="plans-item">
+      <div class="plans-header">
           <h3>PRO</h3>
 	  <span class="prize">149$ <small>per month</small></span>
 	  <p class="small">That's only 14.90 per meal</p>
       </div>
-     <div class="package-details">
+     <div class="plans-details">
         <ul>
 	  <li>One meal 10/days per month</li>
 	  <li>Order 24/7</li>
@@ -244,19 +244,19 @@
 	  <li>Free delivery</li>
         </ul>
      </div>
-     <div class="package-footer">
+     <div class="plans-footer">
         <input type="button" value="Sign up now">
      </div>
   </div>
 <!-- starters -->	 
-  <div class="package-item">
-    <div class="package-header">
+  <div class="plans-item">
+    <div class="plans-header">
        <h3>Starter</h3> 
        <span class="prize">19$</span>
        <p class="small"></p>
 
     </div>
-    <div class="package-details">
+    <div class="plans-details">
        <ul>
 	  <li>1 meal</li>
 	  <li>Order 24/7</li>
@@ -264,7 +264,7 @@
 	  <li>Free delivery</li>
        </ul>
      </div>
-     <footer class="package-footer">
+     <footer class="plans-footer">
        <input type="button" value=" Sign Up now"> 
      </footer> 
     </div>

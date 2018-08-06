@@ -21,12 +21,12 @@
 	     <img src="RsourcesNew/img/logo.png" alt="logo image" class="logo-image-black">
           </div>
 	  <ul class="main-navigation main-navigation--js hideMe">
-	     <li><a href="#" >food delivery</a></li>
-	     <li><a href="#" >how it works</a></li>
-	     <li><a href="#" >our cities</a></li>
-	     <li><a href="#" >sign up</a></li>
+	     <li><a href="#" class="delivery--js">food delivery</a></li>
+	     <li><a href="#" class="howTo--js">how it works</a></li>
+	     <li><a href="#" class="cities--js">our cities</a></li>
+	     <li><a href="#" class="contact--js">sign up</a></li>
 	  </ul>
-	  <div class="hamburger">
+	  <div class="hamburger hamburger--js">
 	     <i class="fas fa-bars"></i>
 	  </div>
        </nav>
@@ -36,13 +36,13 @@
          	Hello super healthy meals!</h1>
 	 </div>
 	 <div class="links-div">
-	    <a class="btn btn-action" href="#" >I am hungry</a>
-	    <a class="btn btn-info" href="#" >Show me more</a>
+	    <a class="btn btn-action scroll-to-plans--js" href="#" >I am hungry</a>
+	    <a class="btn btn-info scroll-to-features--js" href="#" >Show me more</a>
 	 </div>
        </div>
     </header>
 <!-- FEATURES -->
-    <section class="section-features section">
+    <section class="section-features section section-features--js">
   <!-- Features section heading -->
     <div class="feature-greetings">
         <h2>Get food fast &dash; No fast food</h2>
@@ -76,30 +76,30 @@
    <section class="section section-gallery">
       <div class="gallery span-3-of-4">
          <h2>Have a look at our meals!</h2>
-	 <div class="thumbnail">
+	 <div class="thumbnail-box">
 	   <a href="RsourcesNew/img/asparagusAndSteak.jpg" data-title="Asparagus and steak" data-lightbox="gallery">
-	      <img src="RsourcesNew/img/asparagusAndSteak.jpg" alt="picture of asparagus and steak plate" >
+	      <img src="RsourcesNew/img/asparagusAndSteak.jpg" alt="picture of asparagus and steak plate" class="thumbnail-img" >
 	   </a>
 	   <a href="RsourcesNew/img/asparagusAndMeat.jpg" data-title="Asparagus and meat" data-lightbox="gallery">
-	      <img src="RsourcesNew/img/asparagusAndMeat.jpg" alt="picture of asparagus and meat plate" >
+	      <img src="RsourcesNew/img/asparagusAndMeat.jpg" alt="picture of asparagus and meat plate" class="thumbnail-img">
 	   </a>
 	   <a href="RsourcesNew/img/cheeseCake.jpg" data-title="Cheese Cake" data-lightbox="gallery">
-	      <img src="RsourcesNew/img/cheeseCake.jpg" alt="picture of a cheesecake" >
+	      <img src="RsourcesNew/img/cheeseCake.jpg" alt="picture of a cheesecake" class="thumbnail-img">
 	   </a>
 	   <a href="RsourcesNew/img/panini.jpg" data-title="Panini" data-lightbox="gallery" >
-	      <img src="RsourcesNew/img/panini.jpg" alt="picture of an italian sandwitch" >
+	      <img src="RsourcesNew/img/panini.jpg" alt="picture of an italian sandwitch" class="thumbnail-img">
 	   </a>
 	   <a href="RsourcesNew/img/pizza.jpg" data-title="Pizza" data-lightbox="gallery">
-	      <img src="RsourcesNew/img/pizza.jpg" alt="picture of a pizza" >
+	      <img src="RsourcesNew/img/pizza.jpg" alt="picture of a pizza" class="thumbnail-img">
 	   </a>
 	   <a href="RsourcesNew/img/sandwitch.jpg" data-title="Sandwitch" data-lightbox="gallery">
-	      <img src="RsourcesNew/img/sandwitch.jpg" alt="picture of a sandwitch" >
+	      <img src="RsourcesNew/img/sandwitch.jpg" alt="picture of a sandwitch" class="thumbnail-img">
 	   </a>
 	</div>
      </div>
  </section>	 
  <!-- HOW IT WORKS -->
- <section class="section  section-steps">
+ <section class="section  section-steps section-steps--js">
    
    <h2>How it works &dash; simple as 1, 2, 3</h2>
    <div class="step-box">
@@ -128,7 +128,7 @@
    
 </section>
  <!-- CITIES -->
-<section class="section section-cities">
+<section class="section section-cities section-cities--js">
     <h2>We are currently in these cities</h2>
         <div class="cities-box">
 	    <div class="city">
@@ -139,7 +139,7 @@
 		     <li><i class="fas fa-star"></i>60+ top chefs</li>
 		     <li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
 		   </ul>
-	 </div>											<!-- End of city 1 -->
+	 </div>	<!-- End of city 1 -->										
 	     <div class="city">
 	        <img src="RsourcesNew/img/san-francisco.jpg" alt="picture of Sans Francisco" >
 		<h3>San Francisco</h3>
@@ -148,7 +148,7 @@
 		   <li><i class="fas fa-star"></i>60+ top chefs</li>
 		   <li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
 		</ul>
-	     </div>										<!-- End of city 2 -->
+	     </div><!-- End of city 2 -->										
 		<div class="city">
 		   <img src="RsourcesNew/img/berlin.jpg" alt="picture of Berlin" >
 		   <h3>Berlin</h3>
@@ -157,7 +157,7 @@
 		      <li><i class="fas fa-star"></i>60+ top chefs</li>
 		      <li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
 		    </ul>
-                </div>         									 <!-- End of city 3 -->
+                </div>   <!-- End of city 3 -->      									
 		    <div class="city">
 		       <img src="RsourcesNew/img/london.jpg" alt="picture of London" >
 		       <h3>London</h3>
@@ -166,7 +166,7 @@
 			  <li><i class="fas fa-star"></i>60+ top chefs</li>
 			  <li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
 			</ul>
-		   </div>										<!-- End of city 4 -->
+		   </div>	<!-- End of city 4 -->									
 				
          </div>
 </section>

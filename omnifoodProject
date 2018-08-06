@@ -271,7 +271,7 @@
    </div>
   </section>
   <!-- CONTACT FORM -->
-  <section class="section section-contactform">
+  <section class="section section-contactform section-contactform--js">
      <h2>we are happy to hear from you</h2>
      <div class="contact-form" >
         <form   class="form-outer">

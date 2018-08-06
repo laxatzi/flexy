@@ -692,7 +692,8 @@
 	       }	
 	
    /* header */
-	 .links-div {
+	 .logo { flex: 2; }  
+         .links-div {
 	             display: flex;
 		     flex-direction: column;
 		     width: 50%;
@@ -767,8 +768,9 @@
 		    width: 180px;
                   } 
 /* HEADER  */
-	.hamburger { margin-right: 10%; }
-	.main-navigation li a:visited, 
+	.hamburger { margin-right: 5%; }
+        .main-navigation {  align-items: flex-start;  }  
+        .main-navigation li a:visited, 
         .main-navigation li a:link {
                                     font-size: .788rem;
 				    padding: 4px 0;

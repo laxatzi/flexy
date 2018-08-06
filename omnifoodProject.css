@@ -509,7 +509,7 @@
 		               border-radius: 50%;
 			       width: 15%;
 			      }
-/* ^PacKages*/
+/* ^Plans*/
 	 .plans-item {
 	                margin: auto;
 		        margin-top: 30px;
@@ -549,10 +549,7 @@
 	 p {font-size: 90%; }
 	
 /* ^HEADER */	
-	 .main-navigation li a:visited,
-         .main-navigation li a:link  { font-size: 80%; }
-        	
-	 .logo	{ 
+         .logo	{ 
 		  margin-left: 5%;
 		  justify-content: flex-start;
 	        }

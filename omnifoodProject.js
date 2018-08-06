@@ -46,11 +46,17 @@ var waypoints = $('#handler-first').waypoint(function(direction) {
 });   /* End of scrolling to contactForm script */
 		
 /* Toggle */
-   function toggleFunc() {
-      var menu = document.querySelectorAll(".main-navigation");
-      menu.forEach( function (arg) {
-         return arg.classList.toggle("navbar-menu--show")
-         });
-   }								
-   document.querySelector(".hamburger").addEventListener("click", toggleFunc);
-});
+   $('.hamburger--js').click(function() {
+       var icon =  $('.hamburger--js i');
+       $('.main-navigation--js').toggleClass('hideMe'); 
+				 
+	if(icon.hasClass('fa-bars')) {
+	    icon.addClass('fa-times');
+	    icon.removeClass('fa-bars');
+	 } else {
+	    icon.removeClass('fa-times');
+	    icon.addClass('fa-bars');
+	}
+    });
+	
+});<!-- End ready -->

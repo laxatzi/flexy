@@ -8,7 +8,7 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
       <link rel="stylesheet"  href="vendorsNew/css/normalize.css">
       <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
-      <link rel="" type="" href="vendorsNew/css/grid.css"/>  
+      <link rel="stylesheet"  href="vendorsNew/css/grid.css"/>  
       <link rel="stylesheet"  href="VendorsNew/css/lightbox.css">
       <link rel="stylesheet"  href="RsourcesNew/CSS/omnifood.css">  
    </head>
@@ -314,8 +314,8 @@
 	      <li><a href="#" >About us</a></li>
 	      <li><a href="#" >Blog</a></li>
 	      <li><a href="#" >Press</a></li>
-	      <li><a href="#" ><li>iOS App</a></li>
-	      <li><a href="#" ><li>Android App</a></li>
+	      <li><a href="#" >iOS App</a></li>
+	      <li><a href="#" >Android App</a></li>
 	   </ul>
 	 </div>
 	 <div class="footer-social">

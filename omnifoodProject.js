@@ -58,38 +58,29 @@ var waypoints = $('#handler-first').waypoint(function(direction) {
 	    icon.addClass('fa-bars');
 	}
     });
-	/* ANIMATE */
-	         /* Feature columns fadeIn */
-	       $('.feature-items--js').waypoint(function(direction) {
-			   $('.feature-items--js').addClass('animated fadeIn');
-			   
-		   }, {
-			   
-			   offset: '50%'
-		   });
-	/* Cities columns fadeIn */	   
-		   $('.cities-box--js').waypoint(function(direction) {
-			   $('.cities-box--js').addClass('animated fadeIn');
-			   
-		   }, {
-			   
-			   offset: '50%'
-		   });
-	/* iPhone in 'How It Works' section fadeInUp */	   
-		   $('.mobile--js').waypoint(function(direction) {
-			   $('.mobile--js').addClass('animated fadeInUp');
-			   
-		   }, {
-			   
-			   offset: '50%'
-		   });
-		/* Plans columns pulse */	   
-   
-		   $('.plans-item--js').waypoint(function(direction) {
-			   $('.plans-item--js').addClass('animated pulse');
-			   
-		   }, {
-			   
-			   offset: '50%'
-		   });
+/* ANIMATE */
+/* Feature columns fadeIn */
+	$('.feature-items--js').waypoint(function(direction) {
+	    $('.feature-items--js').addClass('animated fadeIn');
+          }, {
+	      offset: '50%'
+	     });
+/* Cities columns fadeIn */	   
+        $('.cities-box--js').waypoint(function(direction) {
+	    $('.cities-box--js').addClass('animated fadeIn');
+        }, {
+	     offset: '50%'
+	   });
+/* iPhone in 'How It Works' section fadeInUp */	   
+	$('.mobile--js').waypoint(function(direction) {
+	    $('.mobile--js').addClass('animated fadeInUp');
+       }, {
+           offset: '50%'
+	 });
+/* Plans columns pulse */	   
+        $('.plans-item--js').waypoint(function(direction) {
+	    $('.plans-item--js').addClass('animated pulse');
+	}, {
+	    offset: '50%'
+	 });
 });<!-- End ready -->

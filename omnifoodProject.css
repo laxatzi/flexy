@@ -799,6 +799,7 @@
 	plans-item { width: 100%;  }
    /* CONTACT FORM */
         .newsletter span {display: none; }
- /* 
+ /* FOOTER */
+    .footer-menu ul { flex-direction: column; }
 
 }

@@ -144,7 +144,7 @@
 	        <img src="RsourcesNew/img/san-francisco.jpg" alt="picture of Sans Francisco" >
 		<h3>San Francisco</h3>
 		<ul>
-		   <li><i class="fas fa-user"></i></i>1600+ happy eaters</li>
+		   <li><i class="fas fa-user"></i>1600+ happy eaters</li>
 		   <li><i class="fas fa-star"></i>60+ top chefs</li>
 		   <li><i class="fab fa-twitter"></i><a href="#" >@omnifood_lx</a></li>
 		</ul>
@@ -297,8 +297,8 @@
 	      <input id="newsletter" type="checkbox">&nbsp; Yes please!
 	   </div> 
 	   <div class="textarea">
-	      <label for="">Drop as a line</label>
-	      <textarea  rows="3" placeholder="Your message..."></textarea>
+	      <label for="textarea">Drop as a line</label>
+	      <textarea id="textarea" rows="3" placeholder="Your message..."></textarea>
 	   </div>
 	   <div class="form-submit_button">
 	      <a href="#" class="btn btn-action" >Send it!</a> 

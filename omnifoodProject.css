@@ -480,7 +480,19 @@
 	 .footer-menu a:hover,
 	 .footer-menu a:focus {
 	                       color: #fff;
-	                       }	
+	                       }
+  /*  ^ANIMATION */
+
+    .feature-items--js,
+    .cities-box--js,
+    .mobile--js	{
+	         opacity: 0;
+		}
+	.feature-items--js.animated,
+        .cities-box--js.animated,
+        .mobile--js.animated	{
+	     			 opacity: 1;
+				}
 /*------------------------------------------------------------------
    ^MAX 900px
 -------------------------------------------------------------------*/	

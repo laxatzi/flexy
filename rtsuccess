@@ -1,54 +1,51 @@
 <html lang="en">
-	<head>
-	  <meta charset="UTF-8">
-	  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <title>Roads to Success</title>
-	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-       <link rel="stylesheet"  href="rtsuccess.css">  
-	</head>
-	<body>
-		<header class="header">
-		    <div class="navbar">
-				<div class="navbar-brand">
-					RTS
-				</div>
-				<div class="navbar-toggle">
-					<i class="fa fa-bars"></i>
-				</div>
-				<nav class="navbar-menu">
-					
-					<div class="navbar-menu--item">
-						<a href="#" >Services</a>
-					</div>
-					<div class="navbar-menu--item">
-						<a href="#" >About</a>
-					</div>
-					<div class="navbar-menu--item">
-						<a href="#" >Testimonials</a>
-					</div>
-					<div class="navbar-menu--item">
-						<a href="#" >Contact</a>
-					</div>
-					<div class="navbar-menu--item">
-						<a href="#" >Social</a>
-					</div>
-				</nav>
-			</div>
-			<div class="banner">
-			   
-				<div class="banner-text">
-					      <p><small>Ut enim ad <span>minim</span> veniam.</small> </p>
-						  <h1>Roads to Success</h1>
-						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>
-						  <div class="banner-links">
-							  <a class="btn btn-distinct" href="#" >I want it!</a>
-							  <a class="btn btn-ghost" href="#" >What is all about?</a>
-						  </div>
-				  </div>
-				
-			</div>
-		</header>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Roads to Success</title>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      <link rel="stylesheet"  href="rtsuccess.css">  
+   </head>
+   <body>
+      <header class="header">
+         <div class="navbar">
+	    <div class="navbar-brand">
+	       RTS
+	    </div>
+	    <div class="navbar-toggle">
+	       <i class="fa fa-bars"></i>
+	    </div>
+	    <nav class="navbar-menu">
+	       <div class="navbar-menu--item">
+	          <a href="#" >Services</a>
+	       </div>
+	       <div class="navbar-menu--item">
+		  <a href="#" >About</a>
+	       </div>
+	       <div class="navbar-menu--item">
+	          <a href="#" >Testimonials</a>
+	       </div>
+	       <div class="navbar-menu--item">
+	          <a href="#" >Contact</a>
+	      </div>
+	      <div class="navbar-menu--item">
+	         <a href="#" >Social</a>
+	      </div>
+	    </nav>
+	</div>
+	<div class="banner">
+	   <div class="banner-text">
+	      <p><small>Ut enim ad <span>minim</span> veniam.</small> </p>
+	      <h1>Roads to Success</h1>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>
+	      <div class="banner-links">
+	         <a class="btn btn-distinct" href="#" >I want it!</a>
+	         <a class="btn btn-ghost" href="#" >What is all about?</a>
+	      </div>
+	   </div>
+         </div>
+      </header>
 		
 		<section class="about">
 		   <div class="about-text">

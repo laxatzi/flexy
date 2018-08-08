@@ -1,0 +1,206 @@
+<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Roads to Success</title>
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+       <link rel="stylesheet"  href="rtsuccess.css">  
+	</head>
+	<body>
+		<header class="header">
+		    <div class="navbar">
+				<div class="navbar-brand">
+					RTS
+				</div>
+				<div class="navbar-toggle">
+					<i class="fa fa-bars"></i>
+				</div>
+				<nav class="navbar-menu">
+					
+					<div class="navbar-menu--item">
+						<a href="#" >Services</a>
+					</div>
+					<div class="navbar-menu--item">
+						<a href="#" >About</a>
+					</div>
+					<div class="navbar-menu--item">
+						<a href="#" >Testimonials</a>
+					</div>
+					<div class="navbar-menu--item">
+						<a href="#" >Contact</a>
+					</div>
+					<div class="navbar-menu--item">
+						<a href="#" >Social</a>
+					</div>
+				</nav>
+			</div>
+			<div class="banner">
+			   
+				<div class="banner-text">
+					      <p><small>Ut enim ad <span>minim</span> veniam.</small> </p>
+						  <h1>Roads to Success</h1>
+						  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>
+						  <div class="banner-links">
+							  <a class="btn btn-distinct" href="#" >I want it!</a>
+							  <a class="btn btn-ghost" href="#" >What is all about?</a>
+						  </div>
+				  </div>
+				
+			</div>
+		</header>
+		
+		<section class="about">
+		   <div class="about-text">
+			<h2>It's about helping people to succeed!</h2>
+			 <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+              <p>Vestibulum sed nulla sed lectus consectetur aliquam. Phasellus a nisi eget ex ullamcorper rutrum. Donec a risus nec libero semper ornare. Curabitur eu mattis orci. Phasellus vitae elit dui. Etiam dapibus vulputate augue, malesuada pulvinar metus. Nunc facilisis nisl id nulla ultrices, eu lobortis est dignissim. Integer auctor lacus sit amet eros iaculis congue.</p>
+				<h3>Nullam sed sem lorem.</h3>
+			<p>In lacinia porta egestas. Cras id blandit mauris. Praesent vel nisl vel est gravida dignissim. Donec consequat varius lobortis. Curabitur sit amet dolor vitae erat cursus tristique eu nec eros. Fusce et est id purus vestibulum pretium. Morbi a euismod enim, dictum fermentum eros. Nam elementum fringilla felis eget elementum. Duis augue ligula, commodo non fringilla in, porta ac ex. Donec lobortis accumsan laoreet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac massa egestas, vestibulum nulla ut, malesuada ligula. Aliquam erat volutpat. Ut egestas leo non porttitor porttitor. Donec ac ipsum ultrices, sagittis lacus at, tristique velit.</p>
+			  <h3>Praesent tortor tortor, iaculis eget</h3>
+			 <p>Viverra id, vulputate nec risus. Suspendisse iaculis iaculis neque sit amet efficitur. Vestibulum tortor quam, imperdiet rutrum consectetur a, euismod nec lorem. Ut congue faucibus dui, eget aliquet purus tincidunt vel. Ut id pulvinar tortor. Phasellus tristique blandit pharetra. Etiam in accumsan orci. Sed molestie orci ac nunc tincidunt efficitur. Donec ut diam massa. Morbi euismod metus ut mi viverra convallis. Donec felis urna, finibus nec scelerisque ac, fringilla id lorem. Donec pharetra volutpat libero, sit amet tincidunt felis. Pellentesque pretium pellentesque leo, in vulputate velit congue in. Nullam gravida rutrum mauris suscipit cursus. Quisque congue neque nunc, imperdiet luctus sem facilisis id. Aenean vitae mauris id erat sodales consequat. </p>
+			</div>
+		     <div class="about-sig">
+				 <img src="customer-1.jpg" alt="" >
+				 <span>autor name</span>
+			 </div>
+		</section>
+		
+		<div class="row-alter">
+		<section class="main-services">
+			<div class="services service1">
+				<h2>Service 1</h2>
+				<img class="image-first" src="http://via.placeholder.com/350x150" alt="" >
+				<img class="image-second" src="http://via.placeholder.com/420x180" alt="" >
+                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+					labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							 nisi ut aliquip ex ea commodo consequat."
+				</p>
+			</div>
+			<div class="services services2">
+				<h2>Service 2</h2>
+				<img class="image-first" src="http://via.placeholder.com/350x150" alt="" >
+				<img class="image-second" src="http://via.placeholder.com/420x180" alt="" >
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+					labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							 nisi ut aliquip ex ea commodo consequat."
+				</p>
+			</div>
+			<div class="services service3">
+				<h2>Service 3</h2>
+				<img class="image-first" src="http://via.placeholder.com/350x150" alt="" >
+			     <img class="image-second" src="http://via.placeholder.com/420x180" alt="" >
+
+				<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+					labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+							 nisi ut aliquip ex ea commodo consequat."
+				</p>
+			</div>
+		</section>
+		</div>
+	<!-- Testimonials -->
+		<section class="testimonials testimonials--js">
+			<h2>Real people's success</h2>
+			<div class="testimonials-box">
+			   <div class="testimonial">
+				<div class="testimonial-quote">
+				<blockquote>Donec a risus nec libero semper ornare. Curabitur eu mattis orci. Phasellus vitae elit dui. Etiam dapibus vulputate augue, malesuada pulvinar metus. Nunc facilisis nisl id nulla ultrices, eu lobortis est dignissim.</blockquote>
+
+				</div>
+				<div class="testimonial-client">
+					<img src="customer-2.jpg" alt="" >
+					<span>authors name</span>
+				</div>
+			   </div> <!-- end of first testimonial -->
+			   <div class="testimonial">
+				<div class="testimonial-quote">
+					<blockquote>Donec a risus nec libero semper ornare. Curabitur eu mattis orci. Phasellus vitae elit dui. Etiam dapibus vulputate augue, malesuada pulvinar metus. Nunc facilisis nisl id nulla ultrices, eu lobortis est dignissim.</blockquote>
+				</div>
+				<div class="testimonial-client">
+					<img src="customer-3.jpg" alt="" >
+					<span>authors name</span>
+				</div>
+			   </div>
+			</div>
+
+		</section>	<!--End Testimonials -->
+   <!-- Seminars -->
+		<section>
+			<h2>Roads to Success Seminars</h2>
+			<div class="seminars">
+			
+				<div class="seminar-1">
+					<div class="header">
+						<h3>success road audio seminar </h3> 
+						<span>$100</span>
+					</div>
+					<div class="main">
+						<h4>CD Version</h4>
+						<ul>
+							<li>12 CDs in two cases of optimization</li>
+							<li>100-page spiral-bound workbook</li>
+							<li>Calendar with daily action steps</li>
+							<li>Dr.Success's best selling book, Optimal Living</li>
+							
+						</ul>
+					</div>
+					<div class="footer">
+						100-Day Risk-Free Guarantee
+					</div>
+				</div><!--  end of seminar 1 -->
+				<div class="seminar-2">
+					<div class="header">
+						<h3>success road audio &amp; web seminar </h3> 
+						<span>$300</span>
+					</div>
+					<div class="main">
+						<h4>Instant Access Download</h4>
+						<ul>
+						      <li>Mp3 audio download of optimization by Dr. Glickman</li>
+							<li>12 CDs in two cases of optimization</li>
+							<li>100-page spiral-bound workbook</li>
+							<li>Calendar with daily action steps</li>
+							<li>Dr.Success's best selling book, Optimal Living</li>
+							<li>BONUS: Access to the Success Road Webinar by Dr.Success (value: $59.95)</li>
+						</ul>
+					</div>
+					<div class="footer">
+						100-Day Risk-Free Guarantee
+					</div>
+				</div>
+			</div>
+		</section> <!-- End of Seminars section -->
+		<section class="contact">
+		    <div class="contact-text">
+			<h3>Contact Form:</h3>
+			<form action="#" >
+			     <input type="text" placeholder="Enter your name...">
+				 <input type="text" placeholder="Enter your email...">
+				 <textarea  cols="18"  placeholder="Enter your message..."></textarea>
+				 <input type="button" value="Submit">
+
+			</form>
+		  </div>
+		</section>
+		
+		<footer class="footer">
+			<div class="copy">
+				&copy;<a href="#" > Lambros Hatzinikolaou</a>. All rights reserved.
+			</div>
+			<div class="myLinks">
+				<div class="twitter icon"><a href="#" ><i class="fab fa-dribbble-square"></a></i></div>
+				<div class="dribble icon"><a href="#" ><i class="fab fa-twitter-square"></i></a></div>
+				<div class="github icon"><a href="" ><i class="fab fa-github-square"></i></a></div>
+			</div>
+		</footer>
+		<script >
+		     function toggleFunc() {
+			      var menuItem = document.querySelectorAll(".navbar-menu");
+				  menuItem.forEach(function(arg) {
+						arg.classList.toggle("navbar-menu--show");
+				  })
+			 }
+			 document.querySelector(".navbar-toggle").addEventListener("click", toggleFunc);
+		</script>
+	</body>
+</html>

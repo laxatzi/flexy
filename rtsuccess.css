@@ -1,0 +1,479 @@
+/*------------------------------------------------------------------
+^Basic
+-------------------------------------------------------------------*/
+* {
+    		border: 1px solid red;
+
+}
+   html,
+   body {
+       margin: 0;
+	   padding: 0;
+	   box-sizing: border-box;
+	   font-size: 20px;
+	   line-height: 145%;
+	   font-family: helvetica, arial, sans-serif;
+	   color: #333;
+   }
+   img {
+        border: none;
+		vertical-align: middle;
+		max-width: 100%;
+		height: auto;
+   }
+
+	
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6  {
+		 margin: 0;
+		 padding: 0;
+		 font-family: "helvetica neue", helvetica, arial, sans-serif;
+		}
+		a { 
+		    color: #fff;
+			text-decoration: none;
+		  }
+		 a:hover {
+		         color: goldenrod;
+		        }
+	/*------------------------------------------------------------------
+	^REUSABLE ELEMENTS
+	-------------------------------------------------------------------*/
+	/* headings */
+	
+	h1,h2,h3 {
+	     padding: 1rem 0;
+	}
+	h1 {font-size: 64px; }
+	h2 {font-size: 32px; }
+	h3 {font-size: 24px; }
+	  /* BUTTONS */
+     
+		 .btn:link,
+        .btn:visited {
+		     transition: background-color .2s, border .2s, color .2s;
+			 text-decoration: none;
+			 border-radius: 100px;
+			display: flex;
+			 color: #fff;
+			 padding: .5rem 1rem;	
+			 margin-top: .55rem;
+		}
+		.btn-distinct:link,
+		.btn-distinct:visited { 
+		     background-color: goldenrod;
+			 border: 2px solid goldenrod;
+
+		}
+	    .btn-ghost:link,
+        .btn-ghost:visited		{ 
+		      border: 2px solid goldenrod;
+			  background-color: transparent;
+			  }
+		.btn-distinct:hover,
+		.btn-distinct:focus { 
+		     background-color: #AE8419;
+			 border: 2px solid #AE8419;
+
+		}
+	    .btn-ghost:hover,
+        .btn-ghost:focus		{ 
+		      border: 2px solid #AE8419;
+			  background-color: #AE8419;
+			  } 
+/* 	images*/	
+      .image-second { 
+	        display: none;
+	  }
+ /* Grid */
+	section,
+	header,
+	footer  { 
+	     min-width: 300px;
+		  }
+	
+	section { 
+	       padding: 1.5rem 0;
+          	width: 80%;
+			margin: auto;
+			}
+	.row-alter {background-color: #EFF0F1; width: 100%; }
+	/*------------------------------------------------------------------
+	^HEADER
+	-------------------------------------------------------------------*/	
+	/* ^NAV */
+		.navbar {
+		   background: #000;
+		   display: flex;
+		   padding: .7rem;
+		   color: #fff;
+		}
+		
+		   .navbar-brand  {
+		        color: goldenrod;
+				flex: 1;
+				font-size: 2rem;
+				text-transform: uppercase;
+				text-align: center;
+				 }
+		   
+		     
+		   .navbar-menu  {
+		        display: flex;
+				flex: 3;
+				justify-content: center;
+				align-items: center;
+		   }
+		     .navbar-menu--item  {
+			      padding-right: .65rem;	
+			 }
+		   .navbar-toggle {
+		        font-size: 145%;
+				padding-right: .5rem;
+				display: none;
+		   }
+		  
+		   
+	/*------------------------------------------------------------------
+	^Banner
+	-------------------------------------------------------------------*/
+	
+	.banner  {
+		    background: url("roadToMountsSm.jpg");
+		    width: 100%;
+			background-size: cover;
+			height: 100%;
+			z-index: 1;
+			position: relative;
+		}
+	
+	 .banner:before {
+	       position:absolute;
+		   z-index:-1;
+		   height: 100%;
+		   width: 100%;
+		   top: 0;
+		   left: 0;
+		   content: "";
+		   background: rgba(0, 0, 0, .3);
+	     }
+	.banner-text {
+	    height: 80%;
+		max-width: 700px;
+		margin:  auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		text-align: center;
+		color: #fff;
+		padding-top: 5rem; 
+		
+	}
+
+	
+	    .banner h1 {  
+		       
+			   text-transform: uppercase;
+			   color: orange;
+			   text-align: center;
+			  }
+		.banner p { 
+		     margin: 0;
+			 padding: 0;
+		}
+		.banner-links {
+		     margin-top: 1rem;
+		}
+		 
+	/*------------------------------------------------------------------
+	^MAIN-SERVICES
+	-------------------------------------------------------------------*/
+	
+	.main-services {
+	     display: flex;
+	   
+		
+	}
+	   .services {
+	        flex: auto;
+			
+			text-align: center;
+	   }
+	   
+	     .services h2 { font-size: 170%; }
+		 
+/*------------------------------------------------------------------
+  ^ABOUT
+-------------------------------------------------------------------*/
+
+	   .about-text {
+	        width: 80%;
+			margin: auto;
+	   }
+	   .about-sig {
+	       width: 30%;
+		   margin: 1rem auto 0;
+           display: flex;
+			flex-direction: column;
+			text-align: center;
+			
+	   }
+	   .about-sig img {
+	        width: 40%;
+			height: auto;
+			border: 1px solid transparent;
+			border-radius: 50%;
+			margin: auto;
+	   }
+	   .about-sig span {
+	        font-size: 85%;
+			font-style: oblique;
+	   }
+	   
+	   /*------------------------------------------------------------------
+	  ^CONTACT
+	   -------------------------------------------------------------------*/
+	  .contact  {
+	      height: 100%;	
+	      background: url("roadToSeaSm.jpg");
+		  width: 100%;
+		  background-size: cover;
+		  position: relative;
+		  z-index: 1;
+		  display: flex;
+	  }
+	  
+	  .contact:before {
+	       position:absolute;
+		   z-index:-1;
+		   height: 100%;
+		   width: 100%;
+		   top: 0;
+		   left: 0;
+		   content: "";
+		   background: rgba(0, 0, 0, .3);
+	     }
+	 .contact-text { 
+	                text-align: center; 
+					margin: auto;
+					width: 50%;
+					min-width: 200px;
+				  }
+	 
+	 .contact-text h3  { 
+           color: orange;
+		   font-size: 2rem;
+	 }
+	   
+	   form  {
+	        display: flex;
+			align-items: center;
+			flex-direction: column;
+			
+	   }
+	   
+	   input,
+	   textarea  {
+	       margin-top: .5rem;
+		   border-radius: 5px;
+		   padding: .349rem;
+		  /*  width: 40%; */
+	   }
+	   
+	   input[type="button"]  {
+	        width: 20%;
+			text-align: center;
+			padding: .3rem;
+ 			margin-top: 1.2rem;
+ 		background: orange;
+			color: #fff;
+	   }
+/*------------------------------------------------------------------
+    TESTIMONIAS
+-------------------------------------------------------------------*/
+    .testimonials-box {
+	    display: flex;
+   	}
+	.testimonial-client {
+	    display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.testimonial-client img {
+	     width: 22%;
+		 height: auto;
+		 border: 1px solid transparent;
+		 border-radius: 50%;
+	}
+	.testimonial-client span {
+	    font-size: .85rem;
+		font-style: oblique;
+		padding: .5rem;
+	}
+/*------------------------------------------------------------------
+  ^SEMINARS
+-------------------------------------------------------------------*/
+    .seminars {
+	     display: flex;
+		 
+   	}
+	
+	.seminar-1,
+	.seminar-2 {
+         	flex: 1;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			display: flex;
+	}
+
+	  /*------------------------------------------------------------------
+	  ^FOOTER
+	  -------------------------------------------------------------------*/ 
+	  .footer { 
+	          background-color: #000;
+   			  color: #fff;
+			  display: flex;
+			 
+			  }
+			  .copy { 
+			        flex: 3;
+					font-size: .85rem;
+					}
+			  .myLinks {  
+			              flex: 1;
+						  display: flex; 
+						  justify-content: center;
+						  align-items: center;
+						  font-size: 1.5em;
+						  }
+			     .icon {padding-right: .4rem; }
+	   /* a black to grey grandient could be fine connecting the footer with the contact image */
+	   
+	   
+/*------------------------------------------------------------------
+^MEDIA QUERY MAX 768PX 
+-------------------------------------------------------------------*/
+@media all and (max-width: 768px ) {
+		.navbar  {
+				  padding: .5rem;
+				  font-size: .75rem;
+		         }
+		   .navbar-brand  { font-size: 1rem; }
+		   
+		 
+/*------------------------------------------------------------------
+		^Banner
+	-------------------------------------------------------------------*/
+	
+		 .banner-text {
+		    max-width: 80%;
+		}
+	    
+         .banner h2 {
+		     font-size: 1.5rem;
+		     line-height: 150%;
+
+		 }
+ /*------------------------------------------------------------------
+		^MAIN-Services
+		 -------------------------------------------------------------------*/
+		 .main-services  {
+		    
+			 display: flex;
+		     flex-direction: column;
+		     
+		 }
+		 
+		    .main-services p { 
+			      width: 80%;
+					
+				  }
+}
+	   
+@media all and (max-width: 550px)  {
+    /*------------------------------------------------------------------
+	^Basic
+	-------------------------------------------------------------------*/
+
+	p {  
+	    font-size: .85rem;
+	}
+	small { font-size: .8rem; }
+    /*------------------------------------------------------------------
+	^NAV
+	-------------------------------------------------------------------*/
+	
+	.navbar {
+	     flex-direction: column;
+		 text-align: center;
+	}
+		
+		.navbar-menu {
+		    margin-top: 20px;
+		    flex-direction: column;
+			justify-content: center;
+			display: none;
+		}
+		
+		.navbar-toggle {
+		     display: flex;
+			 align-self: flex-end;
+			 position: absolute;
+		}
+		.navbar-menu--show { display: flex; }
+		.banner  {
+		    background: url("roadToMountsSm.jpg");
+		    width: 100%;
+			background-size: cover;
+			height: 80%;
+			z-index: 1;
+			position: relative;
+		}
+		
+		.services h2 { font-size: 130%; }
+		
+		.image-second { 
+	        display: block;
+			margin: auto;
+	  }
+	  .image-first {
+	      display: none;
+	  }
+		
+	/*------------------------------------------------------------------
+	  ^Contact
+	  -------------------------------------------------------------------*/
+	  
+	  .contact  {
+	        padding-top: 2rem;
+			height: 100%;
+		}
+	  
+	 
+	 .contact-text h3  { font-size: 1.3rem;}
+
+	   
+	   input,
+	   textarea  {
+	       width: 60%;
+	   }
+	   
+	   input[type="button"]  {
+	        width: 30%;
+			
+	   }
+	/*------------------------------------------------------------------
+	^FOOTER
+	-------------------------------------------------------------------*/
+	
+	.footer { flex-direction: column-reverse; }
+	   .myLinks { padding-bottom: .5rem; }
+		 
+}

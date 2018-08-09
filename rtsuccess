@@ -99,17 +99,19 @@
 	          <blockquote>Donec a risus nec libero semper ornare. Curabitur eu mattis orci. Phasellus vitae elit dui. Etiam dapibus vulputate augue, malesuada pulvinar metus. Nunc facilisis nisl id nulla ultrices, eu lobortis est dignissim.</blockquote>
 	      </div>
 	      <div class="testimonial-client">
-	          <img src="customer-2.jpg" alt="" >
-		  <span>authors name</span>
-	      </div>
+	          <img src="customer-2.jpg" alt="pic of Dafnes VanBasten" >
+		  <span>Dafnes VanBasten</span>
+		  <p class="testimonial-par"><small>Vice president at 'Everyday Trading'</small></p>
+              </div>
 	   </div> <!-- end of first testimonial -->
 	   <div class="testimonial">
 	      <div class="testimonial-quote">
 	         <blockquote>Donec a risus nec libero semper ornare. Curabitur eu mattis orci. Phasellus vitae elit dui. Etiam dapibus vulputate augue, malesuada pulvinar metus. Nunc facilisis nisl id nulla ultrices, eu lobortis est dignissim.</blockquote>
 	      </div>
 	      <div class="testimonial-client">
-	         <img src="customer-3.jpg" alt="" >
-	         <span>authors name</span>
+	         <img src="customer-3.jpg" alt="pic of Manos Parides" >
+	         <span>Manos Parides</span>
+		 <p class="testimonial-par"><small>Chief Operating Officer at 'CompanyCo'</small></p>
 	      </div>
 	   </div>
         </div>

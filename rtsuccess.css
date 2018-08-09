@@ -196,12 +196,12 @@
 	
 	.main-services {
 	     display: flex;
-	   
+	     width: 80%;
 		
 	}
 	   .services {
 	        flex: auto;
-			
+		margin: 0 1%;	
 			text-align: center;
 	   }
 	   

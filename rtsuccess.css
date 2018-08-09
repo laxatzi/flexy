@@ -38,7 +38,7 @@
 			text-decoration: none;
 		  }
 		 a:hover {
-		         color: goldenrod;
+		         color: #DAA520;
 		        }
 	/*------------------------------------------------------------------
 	^REUSABLE ELEMENTS
@@ -65,13 +65,13 @@
 		}
 		.btn-distinct:link,
 		.btn-distinct:visited { 
-		     background-color: goldenrod;
-			 border: 2px solid goldenrod;
+		     background-color: #DAA520;
+			 border: 2px solid #DAA520;
 
 		}
 	    .btn-ghost:link,
         .btn-ghost:visited		{ 
-		      border: 2px solid goldenrod;
+		      border: 2px solid #DAA520;
 			  background-color: transparent;
 			  }
 		.btn-distinct:hover,

@@ -117,7 +117,7 @@
 		}
 		
 		   .navbar-brand  {
-		        color: goldenrod;
+		        color: #DAA520;
 				flex: 1;
 				font-size: 2rem;
 				text-transform: uppercase;
@@ -182,7 +182,7 @@
 	    .banner h1 {  
 		       
 			   text-transform: uppercase;
-			   color: orange;
+			   color: #DAA520;
 			   text-align: center;
 			  }
 		.banner p { 
@@ -269,7 +269,7 @@
 				  }
 	 
 	 .contact-text h3  { 
-           color: orange;
+           color: #DAA520;
 		   font-size: 2rem;
 	 }
 	   
@@ -293,7 +293,7 @@
 			text-align: center;
 			padding: .3rem;
  			margin-top: 1.2rem;
- 		background: orange;
+ 		background: #DAA520;
 			color: #fff;
 	   }
 /*------------------------------------------------------------------

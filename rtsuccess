@@ -66,17 +66,15 @@
      <section class="main-services">
         <div class="services service1">
 	   <h2>Service 1</h2>
-	   <img class="image-first" src="http://via.placeholder.com/350x150" alt="" >
-	   <img class="image-second" src="http://via.placeholder.com/420x180" alt="" >
-           <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+	   <img class="image-first" src="http://via.placeholder.com/600x250" alt="" >
+	   <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
 							 nisi ut aliquip ex ea commodo consequat."
 	   </p>
 	</div>
         <div class="services services2">
 	   <h2>Service 2</h2>
-	   <img class="image-first" src="http://via.placeholder.com/350x150" alt="" >
-	   <img class="image-second" src="http://via.placeholder.com/420x180" alt="" >
+	   <img class="image-first" src="http://via.placeholder.com/600x250" alt="" >
 	   <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 	       labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
 							 nisi ut aliquip ex ea commodo consequat."
@@ -84,8 +82,7 @@
 	</div>
 	<div class="services service3">
 	   <h2>Service 3</h2>
-	   <img class="image-first" src="http://via.placeholder.com/350x150" alt="" >
-	   <img class="image-second" src="http://via.placeholder.com/420x180" alt="" >
+	   <img class="image-first" src="http://via.placeholder.com/600x250" alt="" >
            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 		labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
 		nisi ut aliquip ex ea commodo consequat."

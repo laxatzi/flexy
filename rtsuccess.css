@@ -28,117 +28,107 @@ body {
        padding: 0;
        font-family: "helvetica neue", helvetica, arial, sans-serif;
        }
-		a { 
-		    color: #fff;
-			text-decoration: none;
-		  }
-		 a:hover {
-		         color: #DAA520;
-		        }
-	/*------------------------------------------------------------------
+   a { 
+      color: #fff;
+      text-decoration: none;
+     }
+   a:hover { color: #DAA520; }
+/*------------------------------------------------------------------
 	^REUSABLE ELEMENTS
-	-------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 	/* headings */
-	
-	h1,h2,h3 {
-	     padding: 1rem 0;
-	}
-	h1 {font-size: 64px; }
-	h2 {font-size: 32px; }
-	h3 {font-size: 24px; }
+h1,
+h2,
+h3 { padding: 1rem 0; }
+
+h1 {font-size: 64px; }
+h2 {font-size: 32px; }
+h3 {font-size: 24px; }
+
 	  /* BUTTONS */
      
-		 .btn:link,
-        .btn:visited {
-		     transition: background-color .2s, border .2s, color .2s;
-			 text-decoration: none;
-			 border-radius: 100px;
-			display: flex;
-			 color: #fff;
-			 padding: .5rem 1rem;	
-			 margin-top: .55rem;
+   .btn:link,
+   .btn:visited {
+		 transition: background-color .2s, border .2s, color .2s;
+		 text-decoration: none;
+		 border-radius: 100px;
+		 display: flex;
+	         color: #fff;
+		 padding: .5rem 1rem;	
+		 margin-top: .55rem;
 		}
-		.btn-distinct:link,
-		.btn-distinct:visited { 
-		     background-color: #DAA520;
-			 border: 2px solid #DAA520;
-
-		}
-	    .btn-ghost:link,
-        .btn-ghost:visited		{ 
-		      border: 2px solid #DAA520;
-			  background-color: transparent;
-			  }
-		.btn-distinct:hover,
-		.btn-distinct:focus { 
-		     background-color: #AE8419;
-			 border: 2px solid #AE8419;
-
-		}
-	    .btn-ghost:hover,
-        .btn-ghost:focus		{ 
+    .btn-distinct:link,
+    .btn-distinct:visited { 
+		           background-color: #DAA520;
+			   border: 2px solid #DAA520;
+                          }
+   .btn-ghost:link,
+   .btn-ghost:visited { 
+		       border: 2px solid #DAA520;
+		       background-color: transparent;
+		      }
+    .btn-distinct:hover,
+    .btn-distinct:focus { 
+		         background-color: #AE8419;
+		         border: 2px solid #AE8419;
+                        }
+    .btn-ghost:hover,
+    .btn-ghost:focus { 
 		      border: 2px solid #AE8419;
-			  background-color: #AE8419;
-			  } 
+		      background-color: #AE8419;
+		     } 
 /* 	images*/	
-      .image-second { 
-	        display: none;
-	  }
+    .image-second { display: none; }
+
  /* Grid */
-	section,
-	header,
-	footer  { 
-	     min-width: 300px;
-		  }
+   section,
+   header,
+   footer { min-width: 300px; }
 	
-	section { 
-	       padding: 1.5rem 0;
-          	width: 66%;
-			margin: auto;
-			}
-	.row-alter { 
-		background-color: #EFF0F1;
-		width: 100%;
-          }
-	/*------------------------------------------------------------------
+   section { 
+	    padding: 1.5rem 0;
+            width: 66%;
+	    margin: auto;
+	    }
+   .row-alter { 
+	       background-color: #EFF0F1;
+	       width: 100%;
+              }
+/*------------------------------------------------------------------
 	^HEADER
-	-------------------------------------------------------------------*/	
-	/* ^NAV */
-		.navbar {
-		   background: #000;
-		   display: flex;
-		   padding: .7rem;
-		   color: #fff;
-		}
-		
-		   .navbar-brand  {
-		        color: #DAA520;
-				flex: 1;
-				font-size: 2rem;
-				text-transform: uppercase;
-				text-align: center;
-				 }
+-------------------------------------------------------------------*/	
+/* ^NAV */
+   .navbar {
+	    background: #000;
+	    display: flex;
+	    padding: .7rem;
+	    color: #fff;
+	    }
+   .navbar-brand {
+		  color: #DAA520;
+		  flex: 1;
+		  font-size: 2rem;
+	          text-transform: uppercase;
+	          text-align: center;
+		 }
 		   
-		     
-		   .navbar-menu  {
-		        display: flex;
-				flex: 3;
-				justify-content: center;
-				align-items: center;
-		   }
-		     .navbar-menu--item  {
-			      padding-right: .65rem;	
-			 }
-		   .navbar-toggle {
-		        font-size: 145%;
-				padding-right: .5rem;
-				display: none;
+   .navbar-menu {
+		 display: flex;
+		 flex: 3;
+		 justify-content: center;
+		 align-items: center;
+		}
+   .navbar-menu--item  { padding-right: .65rem; }
+
+   .navbar-toggle {
+		   font-size: 145%;
+		   padding-right: .5rem;
+		   display: none;
 		   }
 		  
-		   
-	/*------------------------------------------------------------------
+/*------------------------------------------------------------------
 	^Banner
-	-------------------------------------------------------------------*/
+-------------------------------------------------------------------*/
 	
 	.banner  {
 		    background: url("roadToMountsSm.jpg");

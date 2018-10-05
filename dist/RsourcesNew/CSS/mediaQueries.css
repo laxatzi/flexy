@@ -1,0 +1,238 @@
+/*------------------------------------------------------------------
+		^ small desktops and big tablets up to 1400px (1201px - 1400px )
+-------------------------------------------------------------------*/
+    @media screen and (max-width: 70em /* 1201px - 1400px*/ ){
+	     
+	.row {
+			 /*max-width: 62rem;  1400px */
+			 padding: 0 2%;
+			 }
+			 
+		h1 {
+	        font-size: 2.45rem;
+		    line-height: 130%;
+						}
+						
+	   .hero-text-box {
+					 width: 80%;
+					padding: 0 2%;
+			  }
+			  
+		.main-navigation {
+				   margin-top: 5.5%;
+				   width: 57%;
+				   }
+	   
+	  .main-navigation li a:link,
+	  .main-navigation li a:visited {
+	       font-size: .8em;
+		   padding-top: .3.5em;
+		   padding-bottom: .3.5em;
+	  }
+}
+/*------------------------------------------------------------------
+		Big tablets to 1200px( widths smaller than our .row width (1140px))
+-------------------------------------------------------------------*/
+  	
+	@media screen and (max-width: 60em /*1023 -- 1140px */){ 
+		 
+	header { height: 100vh; } 
+    body { font-size: 18px; }
+    h1 {
+	        font-size: 1.8rem;
+		    line-height: 140%;
+						}
+	h2 { font-size: 1.6rem;  }
+	h3 {
+	     font-size: 1rem;
+		 margin-bottom: .8rem;
+	}
+	  .logo {  margin-left: 3%; }
+		  
+		.btn:link,
+		.btn:visited,
+		input[type=submit]  { padding: .4em .9em; }
+		
+      	.cityBullets  { 
+		    font-size: .705rem;
+			margin-bottom: .15rem; 
+			}
+		
+		  blockquote { font-size: .85rem; }
+		  
+		 .plan-box--features ul li {
+			   padding: 5px 0 ;
+			   font-size: 1.05rem;
+			}
+			
+		label { font-size: 1rem; }
+			
+		.main-navigation {
+				   margin-top: 5.5%;
+				   width: 65%;
+				   }
+	   
+	  .main-navigation li a:link,
+	  .main-navigation li a:visited {
+	       font-size: .7em;
+		   padding-top: .3em;
+		   padding-bottom: .3em;
+	  }
+	  
+	  .icon-small { width: 1rem; }
+	  
+		  
+	  .plan-price  {font-size: 150%; }
+		
+		.plan-box { width: 100%; }
+		.plan-box--features ul li {
+			   font-size: 90%;
+			}
+			
+			a:link.btn,
+			a:visited.btn { font-size: 90%; }
+			.contactForm  { width: 80%; }
+			/*------------------------------------------------------------------
+			
+			-------------------------------------------------------------------*/
+		.stepsBox:first-child { margin-top: 1rem; }
+	    .stepsBox:last-child  { margin-top: 1.75rem; }
+	 
+		.howItWorks-step  { margin-bottom: 2rem; }	
+		
+		.howItWorks-step:last-of-type { margin-bottom: 3rem; }	
+	
+		.howItWorks-step div {
+					height: 2.05rem; /* 36px */
+					width: 2.05rem;
+					font-size: 1.122rem; /* 17px */
+					padding: 0;
+                    }
+		.footer p {
+	             font-size: .7rem;
+			}
+	
+	.footerNav li { 
+	      font-size: .7rem;
+	  }
+}
+/*------------------------------------------------------------------
+	Small to big tablets
+-------------------------------------------------------------------*/
+	@media screen and (max-width: 51.15em /* 1023px */){
+	 
+	 	body { font-size: 18px; }
+         .col  { 
+				margin: 0 0 4% 0;
+			    width: 100%; 
+		}
+		
+		 section  { padding: 1.5rem 0; }
+		 
+		 .row, .hero-text-box {  padding: 0 4%; }
+		 
+		 h1 { font-size: 1.35rem; }
+		 
+		 h2  { font-size: 1.205rem; }
+		 .logo {
+			   height: 5rem;
+			   width: auto;
+			   margin-top: .8em;
+		   }
+		 .main-navigation  { display: none; }
+		 .longCopy {
+			    width: 100%;
+				margin-left: 0;
+	}
+	     .stepsBox:first-child {
+				 text-align: center;
+				 margin-top: .7rem;
+			}
+			
+		.howItWorks-step  {
+				margin-bottom: 1.5rem;
+			}	
+	.howItWorks-step:last-of-type {  margin-bottom: 2rem; }
+	    
+		.howItWorks-step div {
+			height: 1.85rem; 
+			width: 1.85rem;
+			padding: .33rem;
+			font-size: .90rem; /* 34px */
+			margin-right: 2%;
+		}
+				.howItWorks-step p {  font-size: .75rem; }
+		
+		
+		blockquote {
+		  font-size: 95%;
+		  margin-top: 1.5rem;
+	  }
+		 cite {  
+		     font-size: .750rem;
+			margin-top: 1.5%;
+			}
+		 cite img {  height: 2.5rem; }
+		 
+		 blockquote:before  { 
+			font-size: 3rem;
+			top: 10px;
+		}
+		
+		.plan-box--features ul li {
+			   padding: 2px 0 ;
+			   font-size: 100%;
+			}
+			
+			.btn:link,
+		    .btn:visited,
+		     input[type=submit]  { padding: .6em 2em; }
+			 
+		.plan-price  { font-size: 200%; }
+		
+			label { font-size: .8rem; }
+			input[type=text], 
+			input[type=email], 
+			select,
+			textarea  {
+				padding: .55rem;
+				font-size: .68rem;
+				margin-bottom: 10px;
+		  }
+	  
+}
+/*------------------------------------------------------------------
+    Small phones and tablets
+-------------------------------------------------------------------*/
+	
+	@media screen and (max-width: 38.35em /* 768px */){
+	   body { font-size: 16px; }
+
+	  section  { padding: 1.15rem 0; }
+	  .contactForm { width: 100%; }
+	  .btn:link,
+	  .btn:visited,
+	  input[type=submit]  { 
+	       margin-bottom: .5rem;
+	       padding: .4em .9em; 
+		   }
+	  .btn-app {  margin-left: 5%;  }
+	  
+	  
+      .socialLinks,
+	  .footerNav		{  margin-top: 2rem; }
+	  
+	  ..socialLinks  { float: left; }
+}
+/*------------------------------------------------------------------
+    Small phones -- 0 to 480px 
+-------------------------------------------------------------------*/
+       @media screen and (max-width: 24em /* 480px */){
+	   
+     		 header { height: 90vh; } 
+             h1 { font-size: 1rem; }
+			 section  { padding: 1rem 0; }
+			 .logo {  height: 4rem; }
+	         
+}
+	  

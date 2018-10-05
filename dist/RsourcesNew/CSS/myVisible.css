@@ -1,0 +1,84 @@
+
+/* -----------------------------------
+Initial pseudo-element
+----------------------------------- */
+body:before  {
+    position: absolute;
+	top: 850px;
+	right: 30px;
+	padding: .5em;
+	font-size: 200%;
+	color: #fff;
+}
+
+/* -----------------------------------
+Pseudo-elements in media queries
+----------------------------------- */
+@media (max-width: 24em ){
+			body:before {
+			    content:"24em MAX";
+				background-color: yellow;
+			}
+}
+@media (min-width: 24em )  and  (max-width: 30em )  {
+    body:before  {
+	    content: "24em - 30em";
+		background-color: green;
+	}
+	
+}
+
+@media  ( min-width: 30em )  and  ( max-width: 35em )  {
+    body:before  {
+	   content: "30em - 35em";
+	   background-color: orange;
+	}
+}
+
+@media  ( min-width: 35em )  and  ( max-width: 38.35em )  {
+    body:before  {
+	   content: "35em - 38.35em";
+	   background-color: blue;
+	}
+}
+@media  ( min-width: 38.35em )  and  ( max-width: 45em )  {
+    body:before  {
+	   content: "38.35em - 45em";
+	   background-color: red;
+	}
+}
+
+@media  ( min-width: 45em )  and  ( max-width: 51.15em )  {
+    body:before  {
+	   content: "45em - 51.15em";
+	   background-color: purple;
+	}
+}
+
+@media  ( min-width: 51.15em )  and  ( max-width: 55em )  {
+    body:before  {
+	   content: "51.15em - 55em";
+	   background-color: orangered;
+	}
+}
+
+@media  ( min-width: 55em )  and  ( max-width: 60em )  {
+    body:before  {
+	   content: "55em - 60em";
+	   background-color: navy;
+	}
+}
+
+@media  ( min-width: 60em )  and  ( max-width: 65em )  {
+    body:before  {
+	   content: "60em - 65em";
+	   background-color: brown;
+	}
+}
+
+@media  ( min-width: 65em )  and  ( max-width: 70em )  {
+    body:before  {
+	   content: "65em - 70em";
+	   background-color: maroon;
+	}
+}

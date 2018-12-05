@@ -2,22 +2,22 @@
     ^BASIC
 -------------------------------------------------------------------*/
 * {
-   margin: 0;
-   padding: 0;
-  }
-   html {
-	 background-color: #fff;
-         color: #555;
-         font-family: 'Lato','Helvetica', 'Arial', sans-serif ;
-         font-size: 20px;
-	 font-weight: 400;
-	 line-height: 145%;
-         box-sizing: border-box;	   
-      }
-    *, *:before, *:after {
-			box-sizing: inherit;
-		  }
-        img {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato','Helvetica', 'Arial', sans-serif ;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 145%;
+    box-sizing: border-box;	   
+ }
+
+ *, *:before, *:after { box-sizing: inherit; }
+
+     img {
 	     max-width: 100%;
 	     height: auto;
 	     vertical-align: middle;

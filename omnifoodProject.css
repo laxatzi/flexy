@@ -80,23 +80,21 @@ html {
    .btn {
        display: inline-block;
        margin-right: .75em;
-
        padding: .5rem 1.5rem;
        text-decoration: none;
        border-radius: 100px;
        transition: background-color .2s, border .2s, color .2s;
+    }
 
-   }
-   .btn:link,
-   .btn:visited { border: 1px solid #ee5253; }
-    
+       .btn:link,
+       .btn:visited { border: 1px solid #ee5253; }
 
-				
        .btn-action:link,
        .btn-action:visited { 
 	    background-color: #ee5253;
             color: #fff;
         }
+
     .btn-info:link,
     .btn-info:visited { color: #ee5253; }
 				 
@@ -105,6 +103,7 @@ html {
           background-color:  #772929; 
           border: 1px solid  #772929;
     }
+
     .btn-info:hover,
     .btn-info:active {
          color: #fff;

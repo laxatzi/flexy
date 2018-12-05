@@ -18,12 +18,11 @@ html {
  *, *:before, *:after { box-sizing: inherit; }
 
      img {
-	     max-width: 100%;
-	     height: auto;
-	     vertical-align: middle;
-	     border: 0;
-	    }
-          p { font-size: 90%; }
+         max-width: 100%;
+	 height: auto;
+	 vertical-align: middle;
+	 border: 0;
+     }
 	 
 /*------------------------------------------------------------------
     ^GRID

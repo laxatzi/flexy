@@ -41,17 +41,18 @@ html {
     h3 {
         margin: 30px 0;
 	font-weight: 300;
-	letter-spacing: 1px;  		 
+	text-transform: uppercase;
     }
 
     h1 {
-        color: #fff;
 	font-size: 240%;
 	word-spacing: 4px;
 	letter-spacing: 1px;
 	line-height: 145%;
 	padding: 0 10px; 
     }
+
+    .h1-white { color: #fff; }
 
     h2 {
         font-size: 180%;
@@ -72,7 +73,7 @@ html {
 
     h3 {
         font-size: 110%;
-        margin: 10px 0;
+        word-spacing: 2px;
     }
 
      /* ^BUTTONS */

@@ -111,61 +111,65 @@ html {
 	 background-color:  #772929;
     }
 
-	/* ^PARAGRAPH */
-		.long-copy { 
-		            width: 70%;
-			    margin-left: 15%;
-			    text-align: center;
-			   }
-      /* ^ICONS */
-                .icon {
-		       display: block;
-		       margin-bottom: 10px;
-		       color: #ee5253;
-		       font-size: 200%;
-		      }
+/* ^PARAGRAPH */
+    .long-copy { 
+        width: 70%;
+	margin-left: 15%;
+	text-align: center;
+    }
 
-		.box:hover .icon { transform: scale(1) rotate(1deg); }
+    /* ^ICONS */
+    .icon {
+        display: block;
+        margin-bottom: 10px;
+        color: #ee5253;
+        font-size: 200%;
+    }
+    .box:hover .icon { transform: scale(1) rotate(1deg); }
+
 /*------------------------------------------------------------------
     ^HEADER
 -------------------------------------------------------------------*/		   
-	  header {
-	          height: 100vh;
-		  display: flex;
-		  flex-direction: column;
-		  background-color: goldenrod;
-	          background-image:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/hero.jpg");
-		  background-repeat: no-repeat;
-		  background-size: cover;
-		  background-position: center;
-		 }
-				  
-	  .hero-text { margin: auto; } 
+    header {
+        height: 100vh;
+	display: flex;
+        flex-direction: column;
+	background-color: goldenrod;
+	background-image:linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero-text { margin: auto; } 
+
 /*------------------------------------------------------------------
 			^NAV
 -------------------------------------------------------------------*/		
-	nav { 
-	     display: flex;
-	     flex-direction: row; 
-	     justify-content: center;
-	     padding: .5rem;
-	    } 
+    nav { 
+        display: flex;
+	flex-direction: row; 
+	justify-content: center;
+	padding: .5rem;
+    } 
 			   
 	.logo { 
-	      flex: 1;
-	      display: flex;
-	      justify-content: center;
-	      }
+	    flex: 1;
+	    display: flex;
+	    justify-content: center;
+	 }
 			  
 	.logo-image {
-		     height: 5rem;
-		     width: auto;
-		    }
+            height: 5rem;
+	    width: auto;
+	}
 	.logo-image-black { 
-			   height:2.5rem;
-			   width: auto;
-		           display: none;
-			   }				 
+	    height:2.5rem;
+            width: auto;
+            display: none;
+	}	
+
+/* Navigation */
 	.main-navigation {
 			  display: flex;
 			  align-items: center;

@@ -27,53 +27,54 @@ html {
 /*------------------------------------------------------------------
     ^GRID
 -------------------------------------------------------------------*/
-         section,
-         header { min-width: 300px; }
-        .section { padding: 2rem 10px; }
-        .box { padding: 1%; }
+     section,
+     header { min-width: 300px; }
+     .section { padding: 2rem 10px; }
+     .box { padding: 1%; }
 
 /*------------------------------------------------------------------
      ^REUSABLE COMPONENTS
 -------------------------------------------------------------------*/	
  /*   ^HEADINGS     */
-          h1,
-	  h2,
-	  h3 {
-	      margin: 30px 0;
-	      font-weight: 300;
-	      letter-spacing: 1px;  		 
-	     }
-					
-	  h1 {
-	      color: #fff;
-	      font-size: 240%;
-	      word-spacing: 4px;
-	      letter-spacing: 1px;
-	      line-height: 145%;
-	      padding: 0 10px; 
-	     }
+    h1,
+    h2,
+    h3 {
+        margin: 30px 0;
+	font-weight: 300;
+	letter-spacing: 1px;  		 
+    }
 
-	   h2 {
-	       font-size: 180%;
-	       word-spacing: 2px;
-	       text-align: center;
-	       letter-spacing: 1px;
-	       padding: 0 0 20px 0;
-	      }
+    h1 {
+        color: #fff;
+	font-size: 240%;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+	line-height: 145%;
+	padding: 0 10px; 
+    }
+
+    h2 {
+        font-size: 180%;
+	word-spacing: 2px;
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 0 0 20px 0;
+    }
 				 
-	   h2:after {
-		     display: block;
-		     height: 2px;
-		     width: 5em;
-		     margin: 15px auto;
-		     background-color: #ee5253;
-		     content: "";
-		    }
+    h2:after {
+        display: block;
+        height: 2px;
+        width: 5em;
+        margin: 15px auto;
+	background-color: #ee5253;
+	content: "";
+    }
 
-            h3 {
-	        font-size: 110%;
-		margin: 10px 0;
-	       }
+    h3 {
+        font-size: 110%;
+        margin: 10px 0;
+    }
+
      /* ^BUTTONS */
 
 		.btn:link,

@@ -77,16 +77,19 @@ html {
     }
 
      /* ^BUTTONS */
-
+   .btn {
+       display: inline-block;
+       margin-right: .75rem;
+       padding: .5rem 1.5rem;
+       text-decoration: none;
+       border-radius: 100px;
+       transition: background-color .2s, border .2s, color .2s;
+    }
 		.btn:link,
                 .btn:visited {
-			      display: inline-block;
-			      margin-right: .75rem;
-                              padding: .5rem 1.5rem;
-                              text-decoration: none;	
-			      border: 1px solid #ee5253;
-			      border-radius: 100px;
-			      transition: background-color .2s, border .2s, color .2s;
+
+			  border: 1px solid #ee5253;
+
 			     }
 				
 		.btn-action:link,

@@ -80,13 +80,17 @@ html {
    .btn {
        display: inline-block;
        margin-right: .75em;
+
        padding: .5rem 1.5rem;
        text-decoration: none;
        border-radius: 100px;
        transition: background-color .2s, border .2s, color .2s;
+
    }
    .btn:link,
    .btn:visited { border: 1px solid #ee5253; }
+    
+
 				
        .btn-action:link,
        .btn-action:visited { 

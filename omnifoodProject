@@ -16,18 +16,18 @@
    </head>
    <body>
 <!--LOADER-->
-		<div id="container-loader">
-				<div id="loader">
-					<div id="loader--dot"></div>
-					<div id="loader--dot"></div>
-					<div id="loader--dot"></div>
-					<div id="loader--dot"></div>
-					<div id="loader--dot"></div>
-					<div id="loader--dot"></div>
-					<div id="loader--dot"></div>
-					<div id="loader--text"></div>
-				</div>
-	</div>
+   <div id="container-loader">
+      <div id="loader">
+         <div id="loader--dot"></div>
+	 <div id="loader--dot"></div>
+	 <div id="loader--dot"></div>
+	 <div id="loader--dot"></div>
+	 <div id="loader--dot"></div>
+	 <div id="loader--dot"></div>
+	 <div id="loader--dot"></div>
+	 <div id="loader--text"></div>
+      </div>
+   </div>
 <!-- HEADER -->
    <header> 
       <nav >

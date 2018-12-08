@@ -199,44 +199,45 @@ html {
 
       .hamburger { display: none; }
 
-	/* STICKY */		
+/* STICKY */
+
       .sticky-navigation {
-		          position: fixed;
-			  top: 0;
-		          left: 0;
-			  width: 100%;
-			  background-color: rgba(255, 255, 255, .98);
-			  box-shadow: 0 2px 2px #efefef;
-			  z-index: 9999;
-			}
+          position: fixed;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  background-color: rgba(255, 255, 255, .98);
+	  box-shadow: 0 2px 2px #efefef;
+	  z-index: 9999;
+	}
 				
       .sticky-navigation   .main-navigation li a:visited,
       .sticky-navigation    .main-navigation li a:link  {
-                                                         color: #555;
-							 padding: 15px 0; 
-                    				        }
+          color: #555;
+	  padding: 15px 0; 
+      }
       .sticky-navigation .logo-image-black  {display: block; }
       .sticky-navigation .logo-image { display: none; }
 /*------------------------------------------------------------------
     ^FEATURES
 -------------------------------------------------------------------*/
-	   .feature-items {
-			  display: flex;
-			  align-items: stretch;
-		          margin: 2rem auto 0;
-			}
-	   .feature-items .box { 
-		               margin: 0 auto;
-		               flex:1;	 
-			       }
+       .feature-items {
+	   display: flex;
+	   align-items: stretch;
+	   margin: 2rem auto 0;
+	}
+      .feature-items .box { 
+          margin: 0 auto;
+          flex:1;	 
+       }
 /*------------------------------------------------------------------
 	^IMAGE SHOWCASE
 	-------------------------------------------------------------------*/
-	   .gallery {
-	             display: flex;
+      .gallery {
+          display: flex;
 		     margin: auto;
 		     flex-direction: column;
-		    }
+      }
 			   
 	      .thumbnail {
 		         display: flex;

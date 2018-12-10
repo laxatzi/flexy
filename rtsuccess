@@ -21,7 +21,8 @@
 		    </span>
 	        </ul>
 	    </div>
-	    <nav class="navbar-menu">
+	    <div class="navbar-collapse collapse" id="collapsibleNavbar">
+	    
 	       <div class="navbar-menu--item">
 	          <a href="#" >Services</a>
 	       </div>
@@ -37,7 +38,7 @@
 	      <div class="navbar-menu--item">
 	         <a href="#" >Social</a>
 	      </div>
-	    </nav>
+	    </div>
 	</nav>
 	<div class="banner">
 	   <div class="banner-text">

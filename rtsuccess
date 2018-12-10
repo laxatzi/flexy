@@ -23,21 +23,21 @@
 	    </div>
 	    <div class="navbar-collapse collapse" id="collapsibleNavbar">
 	        <ul class="navbar-nav">
-	           <div class="navbar-menu--item">
-	              <a href="#" >Services</a>
-	           </div>
-	           <div class="navbar-menu--item">
-		     <a href="#" >About</a>
-	          </div>
-	          <div class="navbar-menu--item">
-	             <a href="#" >Testimonials</a>
-	          </div>
-	          <div class="navbar-menu--item">
-	             <a href="#" >Contact</a>
-	         </div>
-	         <div class="navbar-menu--item">
-	            <a href="#" >Social</a>
-	         </div>
+	           <li class="nav-item">
+	              <a class="nav-link" href="#" >Services</a>
+	           </li>
+	           <li class="nav-item">
+		     <a  class="nav-link" href="#" >About</a>
+	          </li>
+	          <li class="nav-item">
+	             <a class="nav-link" href="#" >Testimonials</a>
+	          </li>
+	          <li class="nav-item">
+	             <a class="nav-link" href="#" >Contact</a>
+	         </li>
+	         <li class="nav-item">
+	            <a class href="#" >Social</a>
+	         </li>
 	      </ul>
 	    </div>
 	</nav>

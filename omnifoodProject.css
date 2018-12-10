@@ -478,20 +478,20 @@ html {
 		        text-align: center;
 			padding-top: 1rem;
 	               }
+/* Footer Menu */
+         .footer-menu a {
+	     text-decoration: none;
+	     font-size: .85rem;
+             display: inline-block;
+	     margin-right: .25rem;
+             padding: .5rem;
+         }
 	 .footer-menu a:link,
-	 .footer-menu a:visited {
-	                         color: #888;
-		                 text-decoration: none;
-		                 font-size: .85rem;
-		                 display: inline-block;
-		                 margin-right: .25rem;
-		                 padding: .5rem;
-	                         }
+	 .footer-menu a:visited { color: #888; }
 	 
 	 .footer-menu a:hover,
-	 .footer-menu a:focus {
-	                       color: #fff;
-	                       }
+         .footer-menu a:focus { color: #fff; }
+	                       
   /*  ^ANIMATION */
 
     .feature-items--js,

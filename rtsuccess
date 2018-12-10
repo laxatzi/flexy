@@ -5,46 +5,53 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Roads to Success</title>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-      <link rel="stylesheet"  href="rtsuccess.css">  
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1/css/bootstrap.min.css">
+       <link rel="stylesheet"  href="rtsuccess.css">  
    </head>
    <body>
-      <header class="header">
-         <div class="navbar">
-	    <div class="navbar-brand">
+      <header class="header-main">
+         <nav class="navbar navbar-expand-lg nav-main fixed-top">
+	    <div class="navbar-brand" href="#">
 	       RTS
 	    </div>
-	    <div class="navbar-toggle">
-	       <i class="fa fa-bars"></i>
+	    <div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	        <ul class="navbar-nav">
+	            <span class="navbar-toggler-icon">
+		        <i class="fa fa-bars"></i>
+		    </span>
+	        </ul>
 	    </div>
-	    <nav class="navbar-menu">
-	       <div class="navbar-menu--item">
-	          <a href="#" >Services</a>
-	       </div>
-	       <div class="navbar-menu--item">
-		  <a href="#" >About</a>
-	       </div>
-	       <div class="navbar-menu--item">
-	          <a href="#" >Testimonials</a>
-	       </div>
-	       <div class="navbar-menu--item">
-	          <a href="#" >Contact</a>
-	      </div>
-	      <div class="navbar-menu--item">
-	         <a href="#" >Social</a>
-	      </div>
-	    </nav>
-	</div>
-	<div class="banner">
-	   <div class="banner-text">
+	    <div class="navbar-collapse collapse" id="collapsibleNavbar">
+	        <ul class="navbar-nav">
+	           <li class="nav-item">
+	              <a class="nav-link" href="#" >Services</a>
+	           </li>
+	           <li class="nav-item">
+		     <a  class="nav-link" href="#" >About</a>
+	          </li>
+	          <li class="nav-item">
+	             <a class="nav-link" href="#" >Testimonials</a>
+	          </li>
+	          <li class="nav-item">
+	             <a class="nav-link" href="#" >Contact</a>
+	         </li>
+	         <li class="nav-item">
+	            <a class href="#" >Social</a>
+	         </li>
+	      </ul>
+	    </div>
+	</nav>
+	<section class="section-jumbo">
+	   <div class="padding-extended text-center">
 	      <p><small>Ut enim ad <span>minim</span> veniam.</small> </p>
 	      <h1>Roads to Success</h1>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>
-	      <div class="banner-links">
-	         <a class="btn btn-distinct" href="#" >I want it!</a>
-	         <a class="btn btn-ghost" href="#" >What is all about?</a>
+	      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>
+	      <div class="download-links">
+	         <button type="button" class="btn btn-distinct" href="#" >I want it!</a>
+	         <button type="button" class="btn btn-ghost" href="#" >What is all about?</a>
 	      </div>
 	   </div>
-         </div>
+         </section>
       </header>
       <section class="about">
          <div class="about-text">
@@ -180,7 +187,9 @@
 	       <div class="dribble icon"><a href="#" ><i class="fab fa-twitter-square"></i></a></div>
 	       <div class="github icon"><a href="" ><i class="fab fa-github-square"></i></a></div>
 	   </div>
-	</footer>
-	<script src="rtsucces.js"></script>
-	</body>
+   </footer>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>	
+   </body>
 </html>

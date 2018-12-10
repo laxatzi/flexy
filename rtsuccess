@@ -41,17 +41,17 @@
 	      </ul>
 	    </div>
 	</nav>
-	<div class="banner">
-	   <div class="banner-text">
+	<section class="section-jumbo">
+	   <div class="padding-extended text-center">
 	      <p><small>Ut enim ad <span>minim</span> veniam.</small> </p>
 	      <h1>Roads to Success</h1>
-	      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>
-	      <div class="banner-links">
-	         <a class="btn btn-distinct" href="#" >I want it!</a>
-	         <a class="btn btn-ghost" href="#" >What is all about?</a>
+	      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit!</p>
+	      <div class="download-links">
+	         <button type="button" class="btn btn-distinct" href="#" >I want it!</a>
+	         <button type="button" class="btn btn-ghost" href="#" >What is all about?</a>
 	      </div>
 	   </div>
-         </div>
+         </section>
       </header>
       <section class="about">
          <div class="about-text">

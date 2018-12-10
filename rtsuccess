@@ -11,11 +11,15 @@
    <body>
       <header class="header-main">
          <nav class="navbar navbar-expand-lg nav-main fixed-top">
-	    <div class="navbar-brand">
+	    <div class="navbar-brand" href="#">
 	       RTS
 	    </div>
-	    <div class="navbar-toggle">
-	       <i class="fa fa-bars"></i>
+	    <div class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	        <ul class="navbar-nav">
+	            <span class="navbar-toggler-icon">
+		        <i class="fa fa-bars"></i>
+		    </span>
+	        </ul>
 	    </div>
 	    <nav class="navbar-menu">
 	       <div class="navbar-menu--item">

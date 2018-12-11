@@ -69,8 +69,8 @@
 /*------------------------------------------------------------------
 	^Banner
 -------------------------------------------------------------------*/
-   .banner {
-	    background: url("roadToMountsSm.jpg");
+   .section-jumbo {
+	    background: url("img/road-hill-landscape.jpg");
 	    width: 100%;
 	    background-size: cover;
 	    height: 100%;

@@ -45,20 +45,11 @@
 		      border: 2px solid #AE8419;
 		      background-color: #AE8419;
 		     } 
-/* 	images*/	
+/* IMAGES */	
     .image-second { display: none; }
 
  /* Grid */
-   section,
-   header,
-   footer { min-width: 300px; }
-	
-   section { 
-	    padding: 1.5rem 0;
-            width: 66%;
-	    margin: auto;
-	    }
-   .row-alter { 
+      .row-alter { 
 	       background-color: #EFF0F1;
 	       width: 100%;
               }

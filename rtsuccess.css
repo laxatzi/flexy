@@ -16,7 +16,18 @@
 /* ^HEADINGS */
 
 /* ^LINKS */
-
+    .alt-link {
+        font-size: 1.25rem;
+        padding: .5rem 1rem;
+    }
+    .alt-link:visited,
+    .alt-link:link {
+        color: #DAA520;
+    }
+    .alt-link:hover,
+    .alt-link:active {
+        color: #5C6D81;
+    }
 /* ^BUTTONS */
      
    .btn:link,

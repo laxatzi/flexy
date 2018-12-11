@@ -11,12 +11,7 @@ body {
       font-family: helvetica, arial, sans-serif;
       color: #333;
      }
-   img {
-        border: none;
-	vertical-align: middle;
-	max-width: 100%;
-	height: auto;
-       }
+
 
    h1,
    h2,

@@ -5,8 +5,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Roads to Success</title>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1/css/bootstrap.min.css">
-       <link rel="stylesheet"  href="rtsuccess.css">  
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1/css/bootstrap.min.css">
+      <link rel="stylesheet"  href="rtsuccess.css">  
    </head>
    <body>
       <header class="header-main">
@@ -55,19 +55,26 @@
       </header>
       <section class="about-section">
          <div class="container">
-         <div class="about-text">
-	    <h2>It's about helping people to succeed!</h2>
-	    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-            <p>Vestibulum sed nulla sed lectus consectetur aliquam. Phasellus a nisi eget ex ullamcorper rutrum. Donec a risus nec libero semper ornare. Curabitur eu mattis orci. Phasellus vitae elit dui. Etiam dapibus vulputate augue, malesuada pulvinar metus. Nunc facilisis nisl id nulla ultrices, eu lobortis est dignissim. Integer auctor lacus sit amet eros iaculis congue.</p>
-	    <h3>Nullam sed sem lorem.</h3>
-	    <p>In lacinia porta egestas. Cras id blandit mauris. Praesent vel nisl vel est gravida dignissim. Donec consequat varius lobortis. Curabitur sit amet dolor vitae erat cursus tristique eu nec eros. Fusce et est id purus vestibulum pretium. Morbi a euismod enim, dictum fermentum eros. Nam elementum fringilla felis eget elementum. Duis augue ligula, commodo non fringilla in, porta ac ex. Donec lobortis accumsan laoreet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac massa egestas, vestibulum nulla ut, malesuada ligula. Aliquam erat volutpat. Ut egestas leo non porttitor porttitor. Donec ac ipsum ultrices, sagittis lacus at, tristique velit.</p>
-	    <h3>Praesent tortor tortor, iaculis eget</h3>
-	    <p>Viverra id, vulputate nec risus. Suspendisse iaculis iaculis neque sit amet efficitur. Vestibulum tortor quam, imperdiet rutrum consectetur a, euismod nec lorem. Ut congue faucibus dui, eget aliquet purus tincidunt vel. Ut id pulvinar tortor. Phasellus tristique blandit pharetra. Etiam in accumsan orci. Sed molestie orci ac nunc tincidunt efficitur. Donec ut diam massa. Morbi euismod metus ut mi viverra convallis. Donec felis urna, finibus nec scelerisque ac, fringilla id lorem. Donec pharetra volutpat libero, sit amet tincidunt felis. Pellentesque pretium pellentesque leo, in vulputate velit congue in. Nullam gravida rutrum mauris suscipit cursus. Quisque congue neque nunc, imperdiet luctus sem facilisis id. Aenean vitae mauris id erat sodales consequat. </p>
-	</div>
-	<div class="about-sig">
-	   <img src="customer-1.jpg" alt="picture of Jason Fitipaldi" >
-	   <span>Jason Fitipaldi</span>
-	   <p><small>CEO 'Road to Success' seminars</small></p>
+	    <div class="text-center">
+               <div class="row">
+	          <div class="col-lg-8">
+	             <h2>It's about helping people to succeed!</h2>
+	             <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                     <p>Vestibulum sed nulla sed lectus consectetur aliquam. Phasellus a nisi eget ex ullamcorper rutrum. Donec a risus nec libero semper ornare. Curabitur eu mattis orci. Phasellus vitae elit dui. Etiam dapibus vulputate augue, malesuada pulvinar metus. Nunc facilisis nisl id nulla ultrices, eu lobortis est dignissim. Integer auctor lacus sit amet eros iaculis congue.</p>
+	             <h3>Nullam sed sem lorem.</h3>
+	             <p>In lacinia porta egestas. Cras id blandit mauris. Praesent vel nisl vel est gravida dignissim. Donec consequat varius lobortis. Curabitur sit amet dolor vitae erat cursus tristique eu nec eros. Fusce et est id purus vestibulum pretium. Morbi a euismod enim, dictum fermentum eros. Nam elementum fringilla felis eget elementum. Duis augue ligula, commodo non fringilla in, porta ac ex. Donec lobortis accumsan laoreet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ac massa egestas, vestibulum nulla ut, malesuada ligula. Aliquam erat volutpat. Ut egestas leo non porttitor porttitor. Donec ac ipsum ultrices, sagittis lacus at, tristique velit.</p>
+	             <h3>Praesent tortor tortor, iaculis eget</h3>
+	             <p>Viverra id, vulputate nec risus. Suspendisse iaculis iaculis neque sit amet efficitur. Vestibulum tortor quam, imperdiet rutrum consectetur a, euismod nec lorem. Ut congue faucibus dui, eget aliquet purus tincidunt vel. Ut id pulvinar tortor. Phasellus tristique blandit pharetra. Etiam in accumsan orci. Sed molestie orci ac nunc tincidunt efficitur. Donec ut diam massa. Morbi euismod metus ut mi viverra convallis. Donec felis urna, finibus nec scelerisque ac, fringilla id lorem. Donec pharetra volutpat libero, sit amet tincidunt felis. Pellentesque pretium pellentesque leo, in vulputate velit congue in. Nullam gravida rutrum mauris suscipit cursus. Quisque congue neque nunc, imperdiet luctus sem facilisis id. Aenean vitae mauris id erat sodales consequat. </p>
+	          </div>
+	       </div>
+	       <div class="row">
+	          <div class="col-6-lg">
+	             <img src="customer-1.jpg" alt="picture of Jason Fitipaldi" >
+	             <span>Jason Fitipaldi</span>
+	             <p><small>CEO 'Road to Success' seminars</small></p>
+	          </div>
+	      </div>
+	   </div>
 	</div>
      </section>
      <div class="row-alter">

@@ -30,15 +30,9 @@
     }
 /* ^BUTTONS */
      
-   .btn:link,
-   .btn:visited {
+   .btn {
 		 transition: background-color .2s, border .2s, color .2s;
-		 text-decoration: none;
-		 border-radius: 100px;
-		 display: flex;
-	         color: #fff;
-		 padding: .5rem 1rem;	
-		 margin-top: .55rem;
+
 		}
     .btn-distinct:link,
     .btn-distinct:visited { 

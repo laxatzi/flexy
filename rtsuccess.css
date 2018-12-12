@@ -35,8 +35,7 @@
         border: 2px solid #DAA520;
         }
 
-    .btn-distinct:link,
-    .btn-distinct:visited { background-color: #DAA520; }
+    .btn-distinct { background-color: #DAA520; }
    .btn-ghost:link,
    .btn-ghost:visited { background-color: transparent; }
     .btn-distinct:hover,

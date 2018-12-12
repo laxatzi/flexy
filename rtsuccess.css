@@ -32,16 +32,16 @@
      
    .btn {
 		 transition: background-color .2s, border .2s, color .2s;
-
+  border: 2px solid #DAA520;
 		}
     .btn-distinct:link,
     .btn-distinct:visited { 
 		           background-color: #DAA520;
-			   border: 2px solid #DAA520;
+			 
                           }
    .btn-ghost:link,
    .btn-ghost:visited { 
-		       border: 2px solid #DAA520;
+		    
 		       background-color: transparent;
 		      }
     .btn-distinct:hover,

@@ -36,7 +36,7 @@
         }
 
     .btn-distinct { background-color: #DAA520; }
-   .btn-ghost { background-color: transparent; }
+    .btn-ghost { background-color: #E5EAF0t; }
 
     .btn-distinct:hover,
     .btn-distinct:focus { 
